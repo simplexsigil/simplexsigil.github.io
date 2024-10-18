@@ -24,12 +24,16 @@ $pink-color: #f92080 !default;
 $pink-color-light: #ffdddd !default;
 $yellow-color: #efcc00 !default;
 
+$black-red: #3f0000;
+$white-green: #e3ffe2;
+
 $grey-color: #828282 !default;
 $grey-color-light: color.adjust($grey-color, $lightness: 40%);
 $grey-color-dark: #1c1c1d;
 $grey-900: #212529;
 
 $white-color: #ffffff !default;
+$ghwhite-color: #f6f8fa !default;
 $black-color: #000000 !default;
 
 // Theme colors

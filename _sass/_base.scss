@@ -242,11 +242,10 @@ ul.task-list input[type="checkbox"] {
 }
 
 // Navbar customization
-
 .navbar {
   box-shadow: none;
   border-bottom: 1px solid var(--global-divider-color);
-  background-color: var(--global-bg-color);
+  background-color: var(--global-nav-bg-color);
   opacity: 0.95;
 }
 
@@ -676,7 +675,7 @@ footer.sticky-bottom {
   }
 
   h2.bibliography {
-    color: var(--global-divider-color);
+    color: #000000bf;
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
     margin-top: 2rem;
@@ -734,6 +733,11 @@ footer.sticky-bottom {
         > em {
           border-bottom: 1px solid;
           font-style: normal;
+        }
+
+        .self-author{
+          color: var(--global-self-author-color);
+          font-weight: 400;
         }
 
         > span.more-authors {

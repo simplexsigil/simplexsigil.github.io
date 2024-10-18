@@ -6,9 +6,11 @@
 
 :root {
   --global-bg-color: #{$white-color};
+  --global-nav-bg-color: #{$ghwhite-color};
   --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #{$black-color};
   --global-text-color-light: #{$grey-color};
+  --global-self-author-color: #{$black-red};
   --global-theme-color: #{$blue-color};
   --global-hover-color: #{$purple-color};
   --global-hover-text-color: #{$white-color};
@@ -76,9 +78,11 @@
 
 html[data-theme="dark"] {
   --global-bg-color: #{$grey-color-dark};
+  --global-nav-bg-color: #{$grey-color-dark};
   --global-code-bg-color: #{$code-bg-color-dark};
   --global-text-color: #{$grey-color-light};
   --global-text-color-light: #{$grey-color};
+  --global-self-author-color: #{$white-green};
   --global-theme-color: #{$blue-color};
   --global-hover-color: #{$cyan-color};
   --global-hover-text-color: #{$white-color};

@@ -1,34 +1,35 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"roitberg":
+  - firstname: ["Alina", "A.", "Alina*"]
+    url: https://aroitberg.github.io/
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"peng":
+  - firstname: ["Kunyu"]
+    url: https://cvhci.anthropomatik.kit.edu/people_2123.php
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"sarfraz":
+  - firstname: ["Saquib", "M Saquib", "Muhammad Saquib"]
+    url: https://ssarfraz.github.io/
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"stiefelhagen":
+  - firstname: ["Rainer"]
+    url: https://cvhci.anthropomatik.kit.edu/people_596.php
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"zhong":
+  - firstname: ["Zeyun", "Zeyun*"]
+    url: https://zeyun-zhong.github.io/
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"zhang":
+  - firstname: ["Jiaming"]
+    url: https://jamycheung.github.io/
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"zheng":
+  - firstname: ["Junwei"]
+    url: https://junweizheng93.github.io/
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"marinov":
+  - firstname: ["Zdravko", "Zdravko*"]
+    url: https://cvhci.anthropomatik.kit.edu/people_2240.php
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"seibold":
+  - firstname: ["Constantin"]
+    url: https://constantinseibold.github.io/
