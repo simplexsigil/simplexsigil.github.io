@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://simplexsigil.github.io/sitemap.xml
+Sitemap: https://davidschneider.ai/sitemap.xml
