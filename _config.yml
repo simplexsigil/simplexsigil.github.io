@@ -8,7 +8,7 @@ first_name: David
 last_name: Schneider
 email: david.schneiderαkit.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Research Assistant and PhD student at the [*Computer Vision for Human Computer Interaction Lab (cv:hci)](https://cvhci.anthropomatik.kit.edu/people_2125.php).
+  Research Assistant and PhD student at the [*Computer Vision for Human Computer Interaction Lab (cv:hci)](https://cvhci.iar.kit.edu/people_2125.php).
 footer_text:
 keywords: David Schneider, Computer Vision, Machine Learning, Deep Learning, Action Recognition, Muscle Activation, Domain Adaptation, Domain Generalization # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
@@ -84,7 +84,7 @@ orcid_id: 0000-0002-3272-2337 # 0000-0002-3272-2337 # your ORCID ID
 medium_username: # your Medium username
 publons_id: # your ID on Publons
 research_gate_profile: # your profile on ResearchGate
-work_url: https://cvhci.anthropomatik.kit.edu/people_2125.php # work page URL
+work_url: https://cvhci.iar.kit.edu/people_2125.php # work page URL
 ieee_id: 37089194574 # your ieeexplore.ieee.org/author/id
 inspirehep_id: # Inspire HEP author ID
 instagram_id: # your instagram id
