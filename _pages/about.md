@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://cvhci.anthropomatik.kit.edu/'>Research Assistant at CV:HCI</a>. PhD Student. Computer Vision. Machine Learning.
+subtitle: <a href='https://cvhci.iar.kit.edu/'>Research Assistant at CV:HCI</a>. PhD Student. Computer Vision. Machine Learning.
 
 profile:
   align: right
@@ -22,5 +22,5 @@ My research focuses on developing computer vision systems for accurate human act
 
 In this field of research I am less interested in the performance within individual datasets, but rather the performance across datasets: How much worse is the recognition accuracy in real-world settings when training on synthetic data, under different lighting conditions, background sceneries or even slightly changing semantics of certain labels.
 
-I finished my M.Sc. in Computer Science in 2021 and started my PhD at the <a href='https://cvhci.anthropomatik.kit.edu/'>CV:HCI Lab</a> afterwards, both at the <a href='https://www.kit.edu/'>Karlsruhe Institute of Technology (KIT)</a>. 
+I finished my M.Sc. in Computer Science in 2021 and started my PhD at the <a href='https://cvhci.iar.kit.edu/'>CV:HCI Lab</a> afterwards, both at the <a href='https://www.kit.edu/'>Karlsruhe Institute of Technology (KIT)</a>. 
 As a member of the <a href='https://www.jubot.kit.edu/index.php'>JuBot project</a>, my PhD candidate position is partially funded by the <a href='https://www.carl-zeiss-stiftung.de/en/'>Carl-Zeiss-Stiftung</a>.
