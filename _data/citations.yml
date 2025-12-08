@@ -1,0 +1,99 @@
+metadata:
+  last_updated: '2025-12-08'
+papers:
+  T0t-GW4AAAAJ:-f6ydRqryjwC:
+    citations: 7
+    title: 'Muscles in time: Learning to understand human motion in-depth by simulating muscle activations'
+    year: '2024'
+  T0t-GW4AAAAJ:7PzlFSSx8tAC:
+    citations: 2
+    title: Mitigating Label Noise using Prompt-Based Hyperbolic Meta-Learning in Open-Set Domain Generalization
+    year: '2024'
+  T0t-GW4AAAAJ:9yKSN-GCB0IC:
+    citations: 14
+    title: Is My Driver Observation Model Overconfident? Input-Guided Calibration Networks for Reliable and Interpretable Confidence Estimates
+    year: '2022'
+  T0t-GW4AAAAJ:IjCSPb-OGe4C:
+    citations: 5
+    title: "Erfassung und Interpretation menschlicher Handlungen f\xFCr die Programmierung von Robotern in der Produktion"
+    year: '2022'
+  T0t-GW4AAAAJ:L8Ckcad2t8MC:
+    citations: 1
+    title: Activity Recognition on Avatar-Anonymized Datasets with Masked Differential Privacy
+    year: '2024'
+  T0t-GW4AAAAJ:LkGwnXOMwfcC:
+    citations: 78
+    title: Anticipative feature fusion transformer for multi-modal action anticipation
+    year: '2023'
+  T0t-GW4AAAAJ:QIV2ME_5wuYC:
+    citations: 6
+    title: Towards video-based activated muscle group estimation in the wild
+    year: '2024'
+  T0t-GW4AAAAJ:R3hNpaxXUhUC:
+    citations: 1
+    title: 'OmniFall: A Unified Staged-to-Wild Benchmark for Human Fall Detection'
+    year: '2025'
+  T0t-GW4AAAAJ:ULOm3_A8WrAC:
+    citations: 6
+    title: 'Unveiling the hidden realm: Self-supervised skeleton-based action recognition in occluded environments'
+    year: '2023'
+  T0t-GW4AAAAJ:UeHWp8X0CEIC:
+    citations: 19
+    title: Pose-based contrastive learning for domain agnostic activity representations
+    year: '2022'
+  T0t-GW4AAAAJ:YOwf2qJgpHMC:
+    citations: 41
+    title: Navigating open set scenarios for skeleton-based action recognition
+    year: '2024'
+  T0t-GW4AAAAJ:Zph67rFs4hoC:
+    citations: 10
+    title: Exploring few-shot adaptation for activity recognition on diverse domains
+    year: '2023'
+  T0t-GW4AAAAJ:d1gkVwhDpl0C:
+    citations: 7
+    title: 'Affect-dml: Context-aware one-shot recognition of human affect using deep metric learning'
+    year: '2021'
+  T0t-GW4AAAAJ:dhFuZR0502QC:
+    citations: 5
+    title: 'Synthact: towards generalizable human action recognition based on synthetic data'
+    year: '2024'
+  T0t-GW4AAAAJ:eQOLeE2rZwMC:
+    citations: 2
+    title: Multimodal generation of novel action appearances for synthetic-to-real recognition of activities of daily living
+    year: '2022'
+  T0t-GW4AAAAJ:hFOr9nPyWt4C:
+    citations: 0
+    title: Rendering-Refined Stable Diffusion for Privacy Compliant Synthetic Data
+    year: '2024'
+  T0t-GW4AAAAJ:iH-uZ7U-co4C:
+    citations: 0
+    title: Exploring Self-supervised Skeleton-based Action Recognition in Occluded Environments
+    year: Unknown Year
+  T0t-GW4AAAAJ:mB3voiENLucC:
+    citations: 0
+    title: Exploring Self-Supervised Skeleton-Based Human Action Recognition under Occlusions
+    year: '2023'
+  T0t-GW4AAAAJ:qUcmZB5y_30C:
+    citations: 0
+    title: Learning human actions from complex manipulation tasks and their transfer to robots in the circular factory
+    year: '2024'
+  T0t-GW4AAAAJ:qjMakFHDy7sC:
+    citations: 23
+    title: A comparative analysis of decision-level fusion for multimodal driver behaviour understanding
+    year: '2022'
+  T0t-GW4AAAAJ:r0BpntZqJG4C:
+    citations: 0
+    title: Sim2Real Transfer and Domain Adaptation for Muscle Activation Estimation
+    year: Unknown Year
+  T0t-GW4AAAAJ:u-x6o8ySG0sC:
+    citations: 15
+    title: An interactive indoor drone assistant
+    year: '2019'
+  T0t-GW4AAAAJ:u5HHmVD_uO8C:
+    citations: 55
+    title: 'Let''s Play for Action: Recognizing Activities of Daily Living by Learning from Life Simulation Video Games'
+    year: '2021'
+  T0t-GW4AAAAJ:ufrVoPGSRksC:
+    citations: 6
+    title: 'Modselect: Automatic modality selection for synthetic-to-real domain generalization'
+    year: '2022'
