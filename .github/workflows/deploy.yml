@@ -90,15 +90,8 @@ jobs:
           value: ${{ github.repository }}
       - name: Install and Build 🔧
         run: |
-<<<<<<< HEAD
-          sudo apt-get update && sudo apt-get install -y imagemagick
-          pip3 install --upgrade jupyter
-||||||| 0af4aecf
-          pip3 install --upgrade jupyter
-=======
           sudo apt-get update && sudo apt-get install -y imagemagick
           pip3 install --upgrade nbconvert
->>>>>>> folio/main
           export JEKYLL_ENV=production
           bundle exec jekyll build
       - name: Purge unused CSS 🧹
