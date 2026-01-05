@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2025-12-22'
+  last_updated: '2026-01-05'
 papers:
   T0t-GW4AAAAJ:-f6ydRqryjwC:
     citations: 7
@@ -42,7 +42,7 @@ papers:
     title: Pose-based contrastive learning for domain agnostic activity representations
     year: '2022'
   T0t-GW4AAAAJ:YOwf2qJgpHMC:
-    citations: 41
+    citations: 42
     title: Navigating open set scenarios for skeleton-based action recognition
     year: '2024'
   T0t-GW4AAAAJ:Zph67rFs4hoC:
@@ -54,7 +54,7 @@ papers:
     title: 'Affect-dml: Context-aware one-shot recognition of human affect using deep metric learning'
     year: '2021'
   T0t-GW4AAAAJ:dhFuZR0502QC:
-    citations: 5
+    citations: 4
     title: 'Synthact: towards generalizable human action recognition based on synthetic data'
     year: '2024'
   T0t-GW4AAAAJ:eQOLeE2rZwMC:
