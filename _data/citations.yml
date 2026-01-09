@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-01-05'
+  last_updated: '2026-01-09'
 papers:
   T0t-GW4AAAAJ:-f6ydRqryjwC:
-    citations: 7
+    citations: 8
     title: 'Muscles in time: Learning to understand human motion in-depth by simulating muscle activations'
     year: '2024'
   T0t-GW4AAAAJ:7PzlFSSx8tAC:
@@ -50,11 +50,11 @@ papers:
     title: Exploring few-shot adaptation for activity recognition on diverse domains
     year: '2023'
   T0t-GW4AAAAJ:d1gkVwhDpl0C:
-    citations: 7
+    citations: 9
     title: 'Affect-dml: Context-aware one-shot recognition of human affect using deep metric learning'
     year: '2021'
   T0t-GW4AAAAJ:dhFuZR0502QC:
-    citations: 4
+    citations: 5
     title: 'Synthact: towards generalizable human action recognition based on synthetic data'
     year: '2024'
   T0t-GW4AAAAJ:eQOLeE2rZwMC:
