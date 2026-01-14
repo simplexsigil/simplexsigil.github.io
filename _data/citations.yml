@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-01-09'
+  last_updated: '2026-01-14'
 papers:
   T0t-GW4AAAAJ:-f6ydRqryjwC:
-    citations: 8
+    citations: 7
     title: 'Muscles in time: Learning to understand human motion in-depth by simulating muscle activations'
     year: '2024'
   T0t-GW4AAAAJ:7PzlFSSx8tAC:
@@ -22,7 +22,7 @@ papers:
     title: Activity Recognition on Avatar-Anonymized Datasets with Masked Differential Privacy
     year: '2024'
   T0t-GW4AAAAJ:LkGwnXOMwfcC:
-    citations: 79
+    citations: 81
     title: Anticipative feature fusion transformer for multi-modal action anticipation
     year: '2023'
   T0t-GW4AAAAJ:QIV2ME_5wuYC:
@@ -54,7 +54,7 @@ papers:
     title: 'Affect-dml: Context-aware one-shot recognition of human affect using deep metric learning'
     year: '2021'
   T0t-GW4AAAAJ:dhFuZR0502QC:
-    citations: 5
+    citations: 4
     title: 'Synthact: towards generalizable human action recognition based on synthetic data'
     year: '2024'
   T0t-GW4AAAAJ:eQOLeE2rZwMC:
@@ -78,7 +78,7 @@ papers:
     title: Learning human actions from complex manipulation tasks and their transfer to robots in the circular factory
     year: '2024'
   T0t-GW4AAAAJ:qjMakFHDy7sC:
-    citations: 24
+    citations: 25
     title: A comparative analysis of decision-level fusion for multimodal driver behaviour understanding
     year: '2022'
   T0t-GW4AAAAJ:r0BpntZqJG4C:
