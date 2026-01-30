@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-01-14'
+  last_updated: '2026-01-30'
 papers:
   T0t-GW4AAAAJ:-f6ydRqryjwC:
-    citations: 7
+    citations: 8
     title: 'Muscles in time: Learning to understand human motion in-depth by simulating muscle activations'
     year: '2024'
   T0t-GW4AAAAJ:7PzlFSSx8tAC:
@@ -18,11 +18,11 @@ papers:
     title: "Erfassung und Interpretation menschlicher Handlungen f\xFCr die Programmierung von Robotern in der Produktion"
     year: '2022'
   T0t-GW4AAAAJ:L8Ckcad2t8MC:
-    citations: 1
+    citations: 2
     title: Activity Recognition on Avatar-Anonymized Datasets with Masked Differential Privacy
     year: '2024'
   T0t-GW4AAAAJ:LkGwnXOMwfcC:
-    citations: 81
+    citations: 86
     title: Anticipative feature fusion transformer for multi-modal action anticipation
     year: '2023'
   T0t-GW4AAAAJ:QIV2ME_5wuYC:
@@ -54,7 +54,7 @@ papers:
     title: 'Affect-dml: Context-aware one-shot recognition of human affect using deep metric learning'
     year: '2021'
   T0t-GW4AAAAJ:dhFuZR0502QC:
-    citations: 4
+    citations: 5
     title: 'Synthact: towards generalizable human action recognition based on synthetic data'
     year: '2024'
   T0t-GW4AAAAJ:eQOLeE2rZwMC:
@@ -62,13 +62,13 @@ papers:
     title: Multimodal generation of novel action appearances for synthetic-to-real recognition of activities of daily living
     year: '2022'
   T0t-GW4AAAAJ:hFOr9nPyWt4C:
-    citations: 0
+    citations: 1
     title: Rendering-Refined Stable Diffusion for Privacy Compliant Synthetic Data
     year: '2024'
   T0t-GW4AAAAJ:iH-uZ7U-co4C:
     citations: 0
     title: Exploring Self-supervised Skeleton-based Action Recognition in Occluded Environments
-    year: Unknown Year
+    year: '2025'
   T0t-GW4AAAAJ:mB3voiENLucC:
     citations: 0
     title: Exploring Self-Supervised Skeleton-Based Human Action Recognition under Occlusions
@@ -78,7 +78,7 @@ papers:
     title: Learning human actions from complex manipulation tasks and their transfer to robots in the circular factory
     year: '2024'
   T0t-GW4AAAAJ:qjMakFHDy7sC:
-    citations: 25
+    citations: 27
     title: A comparative analysis of decision-level fusion for multimodal driver behaviour understanding
     year: '2022'
   T0t-GW4AAAAJ:r0BpntZqJG4C:
@@ -86,7 +86,7 @@ papers:
     title: Sim2Real Transfer and Domain Adaptation for Muscle Activation Estimation
     year: Unknown Year
   T0t-GW4AAAAJ:u-x6o8ySG0sC:
-    citations: 15
+    citations: 16
     title: An interactive indoor drone assistant
     year: '2019'
   T0t-GW4AAAAJ:u5HHmVD_uO8C:
