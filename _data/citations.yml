@@ -1,14 +1,14 @@
 metadata:
-  last_updated: '2026-01-30'
+  last_updated: '2026-02-09'
 papers:
   T0t-GW4AAAAJ:-f6ydRqryjwC:
-    citations: 8
+    citations: 7
     title: 'Muscles in time: Learning to understand human motion in-depth by simulating muscle activations'
     year: '2024'
   T0t-GW4AAAAJ:7PzlFSSx8tAC:
     citations: 2
-    title: Mitigating Label Noise using Prompt-Based Hyperbolic Meta-Learning in Open-Set Domain Generalization
-    year: '2024'
+    title: Mitigating label noise using prompt-based hyperbolic meta-learning in open-set domain generalization
+    year: '2026'
   T0t-GW4AAAAJ:9yKSN-GCB0IC:
     citations: 14
     title: Is My Driver Observation Model Overconfident? Input-Guided Calibration Networks for Reliable and Interpretable Confidence Estimates
@@ -22,7 +22,7 @@ papers:
     title: Activity Recognition on Avatar-Anonymized Datasets with Masked Differential Privacy
     year: '2024'
   T0t-GW4AAAAJ:LkGwnXOMwfcC:
-    citations: 86
+    citations: 85
     title: Anticipative feature fusion transformer for multi-modal action anticipation
     year: '2023'
   T0t-GW4AAAAJ:QIV2ME_5wuYC:
@@ -34,7 +34,7 @@ papers:
     title: 'OmniFall: A Unified Staged-to-Wild Benchmark for Human Fall Detection'
     year: '2025'
   T0t-GW4AAAAJ:ULOm3_A8WrAC:
-    citations: 7
+    citations: 8
     title: 'Unveiling the hidden realm: Self-supervised skeleton-based action recognition in occluded environments'
     year: '2023'
   T0t-GW4AAAAJ:UeHWp8X0CEIC:
@@ -42,7 +42,7 @@ papers:
     title: Pose-based contrastive learning for domain agnostic activity representations
     year: '2022'
   T0t-GW4AAAAJ:YOwf2qJgpHMC:
-    citations: 42
+    citations: 44
     title: Navigating open set scenarios for skeleton-based action recognition
     year: '2024'
   T0t-GW4AAAAJ:Zph67rFs4hoC:
@@ -54,7 +54,7 @@ papers:
     title: 'Affect-dml: Context-aware one-shot recognition of human affect using deep metric learning'
     year: '2021'
   T0t-GW4AAAAJ:dhFuZR0502QC:
-    citations: 5
+    citations: 4
     title: 'Synthact: towards generalizable human action recognition based on synthetic data'
     year: '2024'
   T0t-GW4AAAAJ:eQOLeE2rZwMC:
@@ -90,7 +90,7 @@ papers:
     title: An interactive indoor drone assistant
     year: '2019'
   T0t-GW4AAAAJ:u5HHmVD_uO8C:
-    citations: 55
+    citations: 56
     title: 'Let''s Play for Action: Recognizing Activities of Daily Living by Learning from Life Simulation Video Games'
     year: '2021'
   T0t-GW4AAAAJ:ufrVoPGSRksC:
