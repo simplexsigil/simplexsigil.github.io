@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-02-09'
+  last_updated: '2026-02-20'
 papers:
   T0t-GW4AAAAJ:-f6ydRqryjwC:
-    citations: 7
+    citations: 9
     title: 'Muscles in time: Learning to understand human motion in-depth by simulating muscle activations'
     year: '2024'
   T0t-GW4AAAAJ:7PzlFSSx8tAC:
-    citations: 2
+    citations: 3
     title: Mitigating label noise using prompt-based hyperbolic meta-learning in open-set domain generalization
     year: '2026'
   T0t-GW4AAAAJ:9yKSN-GCB0IC:
@@ -26,7 +26,7 @@ papers:
     title: Anticipative feature fusion transformer for multi-modal action anticipation
     year: '2023'
   T0t-GW4AAAAJ:QIV2ME_5wuYC:
-    citations: 6
+    citations: 7
     title: Towards video-based activated muscle group estimation in the wild
     year: '2024'
   T0t-GW4AAAAJ:R3hNpaxXUhUC:
@@ -38,23 +38,27 @@ papers:
     title: 'Unveiling the hidden realm: Self-supervised skeleton-based action recognition in occluded environments'
     year: '2023'
   T0t-GW4AAAAJ:UeHWp8X0CEIC:
-    citations: 19
+    citations: 18
     title: Pose-based contrastive learning for domain agnostic activity representations
     year: '2022'
   T0t-GW4AAAAJ:YOwf2qJgpHMC:
-    citations: 44
+    citations: 45
     title: Navigating open set scenarios for skeleton-based action recognition
     year: '2024'
   T0t-GW4AAAAJ:Zph67rFs4hoC:
     citations: 10
     title: Exploring few-shot adaptation for activity recognition on diverse domains
     year: '2023'
+  T0t-GW4AAAAJ:bEWYMUwI8FkC:
+    citations: 0
+    title: A Uniform Information-Flow Security Benchmark Suite for Source Code and Bytecode
+    year: '2018'
   T0t-GW4AAAAJ:d1gkVwhDpl0C:
     citations: 9
     title: 'Affect-dml: Context-aware one-shot recognition of human affect using deep metric learning'
     year: '2021'
   T0t-GW4AAAAJ:dhFuZR0502QC:
-    citations: 4
+    citations: 5
     title: 'Synthact: towards generalizable human action recognition based on synthetic data'
     year: '2024'
   T0t-GW4AAAAJ:eQOLeE2rZwMC:
@@ -66,7 +70,7 @@ papers:
     title: Rendering-Refined Stable Diffusion for Privacy Compliant Synthetic Data
     year: '2024'
   T0t-GW4AAAAJ:iH-uZ7U-co4C:
-    citations: 0
+    citations: 1
     title: Exploring Self-supervised Skeleton-based Action Recognition in Occluded Environments
     year: '2025'
   T0t-GW4AAAAJ:mB3voiENLucC:
@@ -78,7 +82,7 @@ papers:
     title: Learning human actions from complex manipulation tasks and their transfer to robots in the circular factory
     year: '2024'
   T0t-GW4AAAAJ:qjMakFHDy7sC:
-    citations: 27
+    citations: 28
     title: A comparative analysis of decision-level fusion for multimodal driver behaviour understanding
     year: '2022'
   T0t-GW4AAAAJ:r0BpntZqJG4C:
@@ -90,10 +94,10 @@ papers:
     title: An interactive indoor drone assistant
     year: '2019'
   T0t-GW4AAAAJ:u5HHmVD_uO8C:
-    citations: 56
+    citations: 54
     title: 'Let''s Play for Action: Recognizing Activities of Daily Living by Learning from Life Simulation Video Games'
     year: '2021'
   T0t-GW4AAAAJ:ufrVoPGSRksC:
-    citations: 6
+    citations: 7
     title: 'Modselect: Automatic modality selection for synthetic-to-real domain generalization'
     year: '2022'
