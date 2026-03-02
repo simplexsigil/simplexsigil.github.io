@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-02-20'
+  last_updated: '2026-03-02'
 papers:
   T0t-GW4AAAAJ:-f6ydRqryjwC:
-    citations: 9
+    citations: 10
     title: 'Muscles in time: Learning to understand human motion in-depth by simulating muscle activations'
     year: '2024'
   T0t-GW4AAAAJ:7PzlFSSx8tAC:
@@ -22,17 +22,21 @@ papers:
     title: Activity Recognition on Avatar-Anonymized Datasets with Masked Differential Privacy
     year: '2024'
   T0t-GW4AAAAJ:LkGwnXOMwfcC:
-    citations: 85
+    citations: 88
     title: Anticipative feature fusion transformer for multi-modal action anticipation
     year: '2023'
   T0t-GW4AAAAJ:QIV2ME_5wuYC:
-    citations: 7
+    citations: 9
     title: Towards video-based activated muscle group estimation in the wild
     year: '2024'
   T0t-GW4AAAAJ:R3hNpaxXUhUC:
-    citations: 1
+    citations: 2
     title: 'OmniFall: A Unified Staged-to-Wild Benchmark for Human Fall Detection'
     year: '2025'
+  T0t-GW4AAAAJ:TFP_iSt0sucC:
+    citations: 0
+    title: Scalable Video Action Anticipation with Cross Linear Attentive Memory
+    year: '2026'
   T0t-GW4AAAAJ:ULOm3_A8WrAC:
     citations: 8
     title: 'Unveiling the hidden realm: Self-supervised skeleton-based action recognition in occluded environments'
@@ -42,7 +46,7 @@ papers:
     title: Pose-based contrastive learning for domain agnostic activity representations
     year: '2022'
   T0t-GW4AAAAJ:YOwf2qJgpHMC:
-    citations: 45
+    citations: 46
     title: Navigating open set scenarios for skeleton-based action recognition
     year: '2024'
   T0t-GW4AAAAJ:Zph67rFs4hoC:
@@ -82,7 +86,7 @@ papers:
     title: Learning human actions from complex manipulation tasks and their transfer to robots in the circular factory
     year: '2024'
   T0t-GW4AAAAJ:qjMakFHDy7sC:
-    citations: 28
+    citations: 29
     title: A comparative analysis of decision-level fusion for multimodal driver behaviour understanding
     year: '2022'
   T0t-GW4AAAAJ:r0BpntZqJG4C:
@@ -98,6 +102,6 @@ papers:
     title: 'Let''s Play for Action: Recognizing Activities of Daily Living by Learning from Life Simulation Video Games'
     year: '2021'
   T0t-GW4AAAAJ:ufrVoPGSRksC:
-    citations: 7
+    citations: 8
     title: 'Modselect: Automatic modality selection for synthetic-to-real domain generalization'
     year: '2022'
