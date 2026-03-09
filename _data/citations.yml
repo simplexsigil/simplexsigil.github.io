@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-02'
+  last_updated: '2026-03-09'
 papers:
   T0t-GW4AAAAJ:-f6ydRqryjwC:
     citations: 10
@@ -46,11 +46,11 @@ papers:
     title: Pose-based contrastive learning for domain agnostic activity representations
     year: '2022'
   T0t-GW4AAAAJ:YOwf2qJgpHMC:
-    citations: 46
+    citations: 48
     title: Navigating open set scenarios for skeleton-based action recognition
     year: '2024'
   T0t-GW4AAAAJ:Zph67rFs4hoC:
-    citations: 10
+    citations: 11
     title: Exploring few-shot adaptation for activity recognition on diverse domains
     year: '2023'
   T0t-GW4AAAAJ:bEWYMUwI8FkC:
@@ -82,7 +82,7 @@ papers:
     title: Exploring Self-Supervised Skeleton-Based Human Action Recognition under Occlusions
     year: '2023'
   T0t-GW4AAAAJ:qUcmZB5y_30C:
-    citations: 0
+    citations: 1
     title: Learning human actions from complex manipulation tasks and their transfer to robots in the circular factory
     year: '2024'
   T0t-GW4AAAAJ:qjMakFHDy7sC:
