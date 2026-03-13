@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-09'
+  last_updated: '2026-03-13'
 papers:
   T0t-GW4AAAAJ:-f6ydRqryjwC:
     citations: 10
@@ -22,7 +22,7 @@ papers:
     title: Activity Recognition on Avatar-Anonymized Datasets with Masked Differential Privacy
     year: '2024'
   T0t-GW4AAAAJ:LkGwnXOMwfcC:
-    citations: 88
+    citations: 89
     title: Anticipative feature fusion transformer for multi-modal action anticipation
     year: '2023'
   T0t-GW4AAAAJ:QIV2ME_5wuYC:
@@ -77,10 +77,22 @@ papers:
     citations: 1
     title: Exploring Self-supervised Skeleton-based Action Recognition in Occluded Environments
     year: '2025'
+  T0t-GW4AAAAJ:isC4tDSrTZIC:
+    citations: 0
+    title: Klimawandel in historischer Perspektive-ein Schnelldurchlauf
+    year: '2024'
+  T0t-GW4AAAAJ:k_IJM867U9cC:
+    citations: 0
+    title: 'Zeitumstellung: Von den historischen Wurzeln zur globalen Debatte des 21. Jahrhunderts'
+    year: '2024'
   T0t-GW4AAAAJ:mB3voiENLucC:
     citations: 0
     title: Exploring Self-Supervised Skeleton-Based Human Action Recognition under Occlusions
     year: '2023'
+  T0t-GW4AAAAJ:maZDTaKrznsC:
+    citations: 0
+    title: KCIST Startseite
+    year: '2026'
   T0t-GW4AAAAJ:qUcmZB5y_30C:
     citations: 1
     title: Learning human actions from complex manipulation tasks and their transfer to robots in the circular factory
