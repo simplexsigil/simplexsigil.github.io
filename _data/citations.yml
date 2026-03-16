@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-13'
+  last_updated: '2026-03-16'
 papers:
   T0t-GW4AAAAJ:-f6ydRqryjwC:
     citations: 10
@@ -22,9 +22,13 @@ papers:
     title: Activity Recognition on Avatar-Anonymized Datasets with Masked Differential Privacy
     year: '2024'
   T0t-GW4AAAAJ:LkGwnXOMwfcC:
-    citations: 89
+    citations: 90
     title: Anticipative feature fusion transformer for multi-modal action anticipation
     year: '2023'
+  T0t-GW4AAAAJ:M3NEmzRMIkIC:
+    citations: 0
+    title: 'FlowNar: Scalable Streaming Narration for Long-Form Videos'
+    year: Unknown Year
   T0t-GW4AAAAJ:QIV2ME_5wuYC:
     citations: 9
     title: Towards video-based activated muscle group estimation in the wild
