@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-03-25'
+  last_updated: '2026-05-13'
 papers:
   T0t-GW4AAAAJ:-f6ydRqryjwC:
     citations: 11
     title: 'Muscles in time: Learning to understand human motion in-depth by simulating muscle activations'
     year: '2024'
   T0t-GW4AAAAJ:7PzlFSSx8tAC:
-    citations: 3
+    citations: 5
     title: Mitigating label noise using prompt-based hyperbolic meta-learning in open-set domain generalization
     year: '2026'
   T0t-GW4AAAAJ:9yKSN-GCB0IC:
@@ -17,28 +17,36 @@ papers:
     citations: 6
     title: "Erfassung und Interpretation menschlicher Handlungen f\xFCr die Programmierung von Robotern in der Produktion"
     year: '2022'
-  T0t-GW4AAAAJ:L8Ckcad2t8MC:
+  T0t-GW4AAAAJ:JV2RwH3_ST0C:
     citations: 2
+    title: 'IMPACT: A Dataset for Multi-Granularity Human Procedural Action Understanding in Industrial Assembly'
+    year: '2026'
+  T0t-GW4AAAAJ:L8Ckcad2t8MC:
+    citations: 4
     title: Activity Recognition on Avatar-Anonymized Datasets with Masked Differential Privacy
     year: '2024'
   T0t-GW4AAAAJ:LkGwnXOMwfcC:
-    citations: 90
+    citations: 93
     title: Anticipative feature fusion transformer for multi-modal action anticipation
     year: '2023'
   T0t-GW4AAAAJ:M3NEmzRMIkIC:
     citations: 0
     title: 'FlowNar: Scalable Streaming Narration for Long-Form Videos'
     year: Unknown Year
+  T0t-GW4AAAAJ:NMxIlDl6LWMC:
+    citations: 0
+    title: 'IMPACT-Scribe: Interactive Temporal Action Segmentation with Boundary Scribbles and Query Planning'
+    year: '2026'
   T0t-GW4AAAAJ:QIV2ME_5wuYC:
     citations: 9
     title: Towards video-based activated muscle group estimation in the wild
     year: '2024'
   T0t-GW4AAAAJ:R3hNpaxXUhUC:
-    citations: 2
+    citations: 4
     title: 'OmniFall: A Unified Staged-to-Wild Benchmark for Human Fall Detection'
     year: '2025'
   T0t-GW4AAAAJ:TFP_iSt0sucC:
-    citations: 0
+    citations: 1
     title: Scalable Video Action Anticipation with Cross Linear Attentive Memory
     year: '2026'
   T0t-GW4AAAAJ:ULOm3_A8WrAC:
@@ -46,11 +54,15 @@ papers:
     title: 'Unveiling the hidden realm: Self-supervised skeleton-based action recognition in occluded environments'
     year: '2023'
   T0t-GW4AAAAJ:UeHWp8X0CEIC:
-    citations: 18
+    citations: 19
     title: Pose-based contrastive learning for domain agnostic activity representations
     year: '2022'
+  T0t-GW4AAAAJ:YFjsv_pBGBYC:
+    citations: 0
+    title: 'IMPACT-HOI: Supervisory Control for Onset-Anchored Partial HOI Event Construction'
+    year: '2026'
   T0t-GW4AAAAJ:YOwf2qJgpHMC:
-    citations: 49
+    citations: 51
     title: Navigating open set scenarios for skeleton-based action recognition
     year: '2024'
   T0t-GW4AAAAJ:Zph67rFs4hoC:
@@ -66,7 +78,7 @@ papers:
     title: 'Affect-dml: Context-aware one-shot recognition of human affect using deep metric learning'
     year: '2021'
   T0t-GW4AAAAJ:dhFuZR0502QC:
-    citations: 5
+    citations: 6
     title: 'Synthact: towards generalizable human action recognition based on synthetic data'
     year: '2024'
   T0t-GW4AAAAJ:eQOLeE2rZwMC:
@@ -77,6 +89,10 @@ papers:
     citations: 1
     title: Rendering-Refined Stable Diffusion for Privacy Compliant Synthetic Data
     year: '2024'
+  T0t-GW4AAAAJ:hMod-77fHWUC:
+    citations: 0
+    title: 'IMPACT-CYCLE: A Contract-Based Multi-Agent System for Claim-Level Supervisory Correction of Long-Video Semantic Memory'
+    year: '2026'
   T0t-GW4AAAAJ:iH-uZ7U-co4C:
     citations: 1
     title: Exploring Self-supervised Skeleton-based Action Recognition in Occluded Environments
@@ -102,7 +118,7 @@ papers:
     title: Learning human actions from complex manipulation tasks and their transfer to robots in the circular factory
     year: '2024'
   T0t-GW4AAAAJ:qjMakFHDy7sC:
-    citations: 30
+    citations: 31
     title: A comparative analysis of decision-level fusion for multimodal driver behaviour understanding
     year: '2022'
   T0t-GW4AAAAJ:r0BpntZqJG4C:
@@ -110,7 +126,7 @@ papers:
     title: Sim2Real Transfer and Domain Adaptation for Muscle Activation Estimation
     year: Unknown Year
   T0t-GW4AAAAJ:u-x6o8ySG0sC:
-    citations: 16
+    citations: 17
     title: An interactive indoor drone assistant
     year: '2019'
   T0t-GW4AAAAJ:u5HHmVD_uO8C:
