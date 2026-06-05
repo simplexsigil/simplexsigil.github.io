@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-05-13'
+  last_updated: '2026-06-05'
 papers:
   T0t-GW4AAAAJ:-f6ydRqryjwC:
-    citations: 11
+    citations: 12
     title: 'Muscles in time: Learning to understand human motion in-depth by simulating muscle activations'
     year: '2024'
   T0t-GW4AAAAJ:7PzlFSSx8tAC:
@@ -42,7 +42,7 @@ papers:
     title: Towards video-based activated muscle group estimation in the wild
     year: '2024'
   T0t-GW4AAAAJ:R3hNpaxXUhUC:
-    citations: 4
+    citations: 5
     title: 'OmniFall: A Unified Staged-to-Wild Benchmark for Human Fall Detection'
     year: '2025'
   T0t-GW4AAAAJ:TFP_iSt0sucC:
@@ -69,20 +69,16 @@ papers:
     citations: 11
     title: Exploring few-shot adaptation for activity recognition on diverse domains
     year: '2023'
-  T0t-GW4AAAAJ:bEWYMUwI8FkC:
-    citations: 0
-    title: A Uniform Information-Flow Security Benchmark Suite for Source Code and Bytecode
-    year: '2018'
   T0t-GW4AAAAJ:d1gkVwhDpl0C:
     citations: 9
     title: 'Affect-dml: Context-aware one-shot recognition of human affect using deep metric learning'
     year: '2021'
   T0t-GW4AAAAJ:dhFuZR0502QC:
-    citations: 6
+    citations: 8
     title: 'Synthact: towards generalizable human action recognition based on synthetic data'
     year: '2024'
   T0t-GW4AAAAJ:eQOLeE2rZwMC:
-    citations: 2
+    citations: 3
     title: Multimodal generation of novel action appearances for synthetic-to-real recognition of activities of daily living
     year: '2022'
   T0t-GW4AAAAJ:hFOr9nPyWt4C:
@@ -94,31 +90,19 @@ papers:
     title: 'IMPACT-CYCLE: A Contract-Based Multi-Agent System for Claim-Level Supervisory Correction of Long-Video Semantic Memory'
     year: '2026'
   T0t-GW4AAAAJ:iH-uZ7U-co4C:
-    citations: 1
+    citations: 2
     title: Exploring Self-supervised Skeleton-based Action Recognition in Occluded Environments
     year: '2025'
-  T0t-GW4AAAAJ:isC4tDSrTZIC:
-    citations: 0
-    title: Klimawandel in historischer Perspektive-ein Schnelldurchlauf
-    year: '2024'
-  T0t-GW4AAAAJ:k_IJM867U9cC:
-    citations: 0
-    title: 'Zeitumstellung: Von den historischen Wurzeln zur globalen Debatte des 21. Jahrhunderts'
-    year: '2024'
   T0t-GW4AAAAJ:mB3voiENLucC:
     citations: 1
     title: Exploring Self-Supervised Skeleton-Based Human Action Recognition under Occlusions
     year: '2023'
-  T0t-GW4AAAAJ:maZDTaKrznsC:
-    citations: 0
-    title: KCIST Startseite
-    year: '2026'
   T0t-GW4AAAAJ:qUcmZB5y_30C:
-    citations: 1
+    citations: 2
     title: Learning human actions from complex manipulation tasks and their transfer to robots in the circular factory
     year: '2024'
   T0t-GW4AAAAJ:qjMakFHDy7sC:
-    citations: 31
+    citations: 32
     title: A comparative analysis of decision-level fusion for multimodal driver behaviour understanding
     year: '2022'
   T0t-GW4AAAAJ:r0BpntZqJG4C:
