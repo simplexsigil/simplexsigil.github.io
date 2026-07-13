@@ -1,18 +1,26 @@
 metadata:
-  last_updated: '2026-06-15'
+  last_updated: '2026-07-13'
 papers:
   T0t-GW4AAAAJ:-f6ydRqryjwC:
-    citations: 13
+    citations: 15
     title: 'Muscles in time: Learning to understand human motion in-depth by simulating muscle activations'
     year: '2024'
   T0t-GW4AAAAJ:7PzlFSSx8tAC:
-    citations: 5
+    citations: 7
     title: Mitigating label noise using prompt-based hyperbolic meta-learning in open-set domain generalization
     year: '2026'
   T0t-GW4AAAAJ:9yKSN-GCB0IC:
     citations: 14
     title: Is My Driver Observation Model Overconfident? Input-Guided Calibration Networks for Reliable and Interpretable Confidence Estimates
     year: '2022'
+  T0t-GW4AAAAJ:BqipwSGYUEgC:
+    citations: 0
+    title: 'KCIST Events-RIG-KCIST Colloquium: Towards Scalable Robot Intelligence: The Interplay between Planning and Learning'
+    year: '2026'
+  T0t-GW4AAAAJ:GnPB-g6toBAC:
+    citations: 16
+    title: 'The icarus white paper: a scalable, energy-efficient, solar-powered hpc center based on low power gpus'
+    year: '2016'
   T0t-GW4AAAAJ:IjCSPb-OGe4C:
     citations: 6
     title: "Erfassung und Interpretation menschlicher Handlungen f\xFCr die Programmierung von Robotern in der Produktion"
@@ -26,7 +34,7 @@ papers:
     title: Activity Recognition on Avatar-Anonymized Datasets with Masked Differential Privacy
     year: '2024'
   T0t-GW4AAAAJ:LkGwnXOMwfcC:
-    citations: 93
+    citations: 95
     title: Anticipative feature fusion transformer for multi-modal action anticipation
     year: '2023'
   T0t-GW4AAAAJ:M3NEmzRMIkIC:
@@ -37,12 +45,16 @@ papers:
     citations: 0
     title: 'IMPACT-Scribe: Interactive Temporal Action Segmentation with Boundary Scribbles and Query Planning'
     year: '2026'
+  T0t-GW4AAAAJ:O3NaXMp0MMsC:
+    citations: 0
+    title: Privacy-Compliant Human Data Synthesis in Images for GDPR
+    year: '2026'
   T0t-GW4AAAAJ:QIV2ME_5wuYC:
     citations: 10
     title: Towards video-based activated muscle group estimation in the wild
     year: '2024'
   T0t-GW4AAAAJ:R3hNpaxXUhUC:
-    citations: 5
+    citations: 6
     title: 'OmniFall: A Unified Staged-to-Wild Benchmark for Human Fall Detection'
     year: '2025'
   T0t-GW4AAAAJ:TFP_iSt0sucC:
@@ -62,7 +74,7 @@ papers:
     title: 'IMPACT-HOI: Supervisory Control for Onset-Anchored Partial HOI Event Construction'
     year: '2026'
   T0t-GW4AAAAJ:YOwf2qJgpHMC:
-    citations: 55
+    citations: 57
     title: Navigating open set scenarios for skeleton-based action recognition
     year: '2024'
   T0t-GW4AAAAJ:Zph67rFs4hoC:
@@ -86,8 +98,8 @@ papers:
     title: Rendering-Refined Stable Diffusion for Privacy Compliant Synthetic Data
     year: '2024'
   T0t-GW4AAAAJ:hMod-77fHWUC:
-    citations: 0
-    title: 'IMPACT-CYCLE: A Contract-Based Multi-Agent System for Claim-Level Supervisory Correction of Long-Video Semantic Memory'
+    citations: 1
+    title: 'IMPACT-CYCLE: A contract-based multi-agent system for claim-level supervisory correction of long-video semantic memory'
     year: '2026'
   T0t-GW4AAAAJ:iH-uZ7U-co4C:
     citations: 2
