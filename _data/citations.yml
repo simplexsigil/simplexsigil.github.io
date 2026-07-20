@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-13'
+  last_updated: '2026-07-20'
 papers:
   T0t-GW4AAAAJ:-f6ydRqryjwC:
     citations: 15
@@ -34,7 +34,7 @@ papers:
     title: Activity Recognition on Avatar-Anonymized Datasets with Masked Differential Privacy
     year: '2024'
   T0t-GW4AAAAJ:LkGwnXOMwfcC:
-    citations: 95
+    citations: 96
     title: Anticipative feature fusion transformer for multi-modal action anticipation
     year: '2023'
   T0t-GW4AAAAJ:M3NEmzRMIkIC:
@@ -54,7 +54,7 @@ papers:
     title: Towards video-based activated muscle group estimation in the wild
     year: '2024'
   T0t-GW4AAAAJ:R3hNpaxXUhUC:
-    citations: 6
+    citations: 7
     title: 'OmniFall: A Unified Staged-to-Wild Benchmark for Human Fall Detection'
     year: '2025'
   T0t-GW4AAAAJ:TFP_iSt0sucC:
@@ -126,7 +126,7 @@ papers:
     title: An interactive indoor drone assistant
     year: '2019'
   T0t-GW4AAAAJ:u5HHmVD_uO8C:
-    citations: 54
+    citations: 55
     title: 'Let''s Play for Action: Recognizing Activities of Daily Living by Learning from Life Simulation Video Games'
     year: '2021'
   T0t-GW4AAAAJ:ufrVoPGSRksC:
