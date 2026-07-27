@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-20'
+  last_updated: '2026-07-27'
 papers:
   T0t-GW4AAAAJ:-f6ydRqryjwC:
     citations: 15
@@ -8,7 +8,7 @@ papers:
   T0t-GW4AAAAJ:7PzlFSSx8tAC:
     citations: 7
     title: Mitigating label noise using prompt-based hyperbolic meta-learning in open-set domain generalization
-    year: '2026'
+    year: '2024'
   T0t-GW4AAAAJ:9yKSN-GCB0IC:
     citations: 14
     title: Is My Driver Observation Model Overconfident? Input-Guided Calibration Networks for Reliable and Interpretable Confidence Estimates
@@ -102,7 +102,7 @@ papers:
     title: 'IMPACT-CYCLE: A contract-based multi-agent system for claim-level supervisory correction of long-video semantic memory'
     year: '2026'
   T0t-GW4AAAAJ:iH-uZ7U-co4C:
-    citations: 2
+    citations: 1
     title: Exploring Self-supervised Skeleton-based Action Recognition in Occluded Environments
     year: '2025'
   T0t-GW4AAAAJ:mB3voiENLucC:
