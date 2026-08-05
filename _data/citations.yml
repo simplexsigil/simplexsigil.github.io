@@ -1,21 +1,21 @@
 metadata:
-  last_updated: '2026-07-27'
+  last_updated: '2026-08-05'
 papers:
   T0t-GW4AAAAJ:-f6ydRqryjwC:
-    citations: 15
+    citations: 16
     title: 'Muscles in time: Learning to understand human motion in-depth by simulating muscle activations'
     year: '2024'
   T0t-GW4AAAAJ:7PzlFSSx8tAC:
     citations: 7
     title: Mitigating label noise using prompt-based hyperbolic meta-learning in open-set domain generalization
-    year: '2024'
+    year: '2026'
   T0t-GW4AAAAJ:9yKSN-GCB0IC:
-    citations: 14
+    citations: 16
     title: Is My Driver Observation Model Overconfident? Input-Guided Calibration Networks for Reliable and Interpretable Confidence Estimates
     year: '2022'
   T0t-GW4AAAAJ:BqipwSGYUEgC:
     citations: 0
-    title: 'KCIST Events-RIG-KCIST Colloquium: Towards Scalable Robot Intelligence: The Interplay between Planning and Learning'
+    title: KCIST Startseite
     year: '2026'
   T0t-GW4AAAAJ:GnPB-g6toBAC:
     citations: 16
@@ -55,10 +55,14 @@ papers:
     year: '2024'
   T0t-GW4AAAAJ:R3hNpaxXUhUC:
     citations: 7
-    title: 'OmniFall: A Unified Staged-to-Wild Benchmark for Human Fall Detection'
+    title: 'Omnifall: A unified staged-to-wild benchmark for human fall detection'
+    year: '2025'
+  T0t-GW4AAAAJ:RGFaLdJalmkC:
+    citations: 0
+    title: 'OmniFall: From Staged Through Synthetic to Wild, A Unified Multi-Domain Dataset for Robust Fall Detection'
     year: '2025'
   T0t-GW4AAAAJ:TFP_iSt0sucC:
-    citations: 1
+    citations: 2
     title: Scalable Video Action Anticipation with Cross Linear Attentive Memory
     year: '2026'
   T0t-GW4AAAAJ:ULOm3_A8WrAC:
@@ -74,7 +78,7 @@ papers:
     title: 'IMPACT-HOI: Supervisory Control for Onset-Anchored Partial HOI Event Construction'
     year: '2026'
   T0t-GW4AAAAJ:YOwf2qJgpHMC:
-    citations: 57
+    citations: 55
     title: Navigating open set scenarios for skeleton-based action recognition
     year: '2024'
   T0t-GW4AAAAJ:Zph67rFs4hoC:
@@ -82,7 +86,7 @@ papers:
     title: Exploring few-shot adaptation for activity recognition on diverse domains
     year: '2023'
   T0t-GW4AAAAJ:d1gkVwhDpl0C:
-    citations: 9
+    citations: 8
     title: 'Affect-dml: Context-aware one-shot recognition of human affect using deep metric learning'
     year: '2021'
   T0t-GW4AAAAJ:dhFuZR0502QC:
@@ -90,31 +94,35 @@ papers:
     title: 'Synthact: towards generalizable human action recognition based on synthetic data'
     year: '2024'
   T0t-GW4AAAAJ:eQOLeE2rZwMC:
-    citations: 3
+    citations: 4
     title: Multimodal generation of novel action appearances for synthetic-to-real recognition of activities of daily living
     year: '2022'
   T0t-GW4AAAAJ:hFOr9nPyWt4C:
     citations: 1
-    title: Rendering-Refined Stable Diffusion for Privacy Compliant Synthetic Data
+    title: Rendering-refined stable diffusion for privacy compliant synthetic data
     year: '2024'
   T0t-GW4AAAAJ:hMod-77fHWUC:
     citations: 1
     title: 'IMPACT-CYCLE: A contract-based multi-agent system for claim-level supervisory correction of long-video semantic memory'
     year: '2026'
   T0t-GW4AAAAJ:iH-uZ7U-co4C:
-    citations: 1
+    citations: 2
     title: Exploring Self-supervised Skeleton-based Action Recognition in Occluded Environments
     year: '2025'
   T0t-GW4AAAAJ:mB3voiENLucC:
     citations: 1
-    title: Exploring Self-Supervised Skeleton-Based Human Action Recognition under Occlusions
+    title: Exploring self-supervised skeleton-based human action recognition under occlusions
+    year: '2023'
+  T0t-GW4AAAAJ:ns9cj8rnVeAC:
+    citations: 0
+    title: 'ModSelect: Automatic Modality Selection for Synthetic-to-Real Domain Generalization'
     year: '2023'
   T0t-GW4AAAAJ:qUcmZB5y_30C:
     citations: 2
     title: Learning human actions from complex manipulation tasks and their transfer to robots in the circular factory
     year: '2024'
   T0t-GW4AAAAJ:qjMakFHDy7sC:
-    citations: 32
+    citations: 31
     title: A comparative analysis of decision-level fusion for multimodal driver behaviour understanding
     year: '2022'
   T0t-GW4AAAAJ:r0BpntZqJG4C:
@@ -126,7 +134,7 @@ papers:
     title: An interactive indoor drone assistant
     year: '2019'
   T0t-GW4AAAAJ:u5HHmVD_uO8C:
-    citations: 55
+    citations: 56
     title: 'Let''s Play for Action: Recognizing Activities of Daily Living by Learning from Life Simulation Video Games'
     year: '2021'
   T0t-GW4AAAAJ:ufrVoPGSRksC:
