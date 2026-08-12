@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-05'
+  last_updated: '2026-08-12'
 papers:
   T0t-GW4AAAAJ:-f6ydRqryjwC:
     citations: 16
@@ -13,10 +13,6 @@ papers:
     citations: 16
     title: Is My Driver Observation Model Overconfident? Input-Guided Calibration Networks for Reliable and Interpretable Confidence Estimates
     year: '2022'
-  T0t-GW4AAAAJ:BqipwSGYUEgC:
-    citations: 0
-    title: KCIST Startseite
-    year: '2026'
   T0t-GW4AAAAJ:GnPB-g6toBAC:
     citations: 16
     title: 'The icarus white paper: a scalable, energy-efficient, solar-powered hpc center based on low power gpus'
@@ -34,7 +30,7 @@ papers:
     title: Activity Recognition on Avatar-Anonymized Datasets with Masked Differential Privacy
     year: '2024'
   T0t-GW4AAAAJ:LkGwnXOMwfcC:
-    citations: 96
+    citations: 98
     title: Anticipative feature fusion transformer for multi-modal action anticipation
     year: '2023'
   T0t-GW4AAAAJ:M3NEmzRMIkIC:
@@ -54,7 +50,7 @@ papers:
     title: Towards video-based activated muscle group estimation in the wild
     year: '2024'
   T0t-GW4AAAAJ:R3hNpaxXUhUC:
-    citations: 7
+    citations: 8
     title: 'Omnifall: A unified staged-to-wild benchmark for human fall detection'
     year: '2025'
   T0t-GW4AAAAJ:RGFaLdJalmkC:
@@ -78,7 +74,7 @@ papers:
     title: 'IMPACT-HOI: Supervisory Control for Onset-Anchored Partial HOI Event Construction'
     year: '2026'
   T0t-GW4AAAAJ:YOwf2qJgpHMC:
-    citations: 55
+    citations: 56
     title: Navigating open set scenarios for skeleton-based action recognition
     year: '2024'
   T0t-GW4AAAAJ:Zph67rFs4hoC:
