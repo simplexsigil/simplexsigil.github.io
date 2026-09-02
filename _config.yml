@@ -10,9 +10,9 @@ email: david.schneiderαkit.edu
 # contact_note: >
 #  You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Research Assistant and PhD student at the [*Computer Vision for Human Computer Interaction Lab (cv:hci)](https://cvhci.iar.kit.edu/people_2125.php).
+  Researcher at the Karlsruhe Institute of Technology (KIT), working at the Computer Vision for Human-Computer Interaction Lab (CV:HCI) and the High Performance Humanoid Technologies Lab (H2T), and Managing Director of the KIT Center Information · Systems · Technologies (KCIST).
 footer_text:
-keywords: David Schneider, Computer Vision, Machine Learning, Deep Learning, Action Recognition, Muscle Activation, Domain Adaptation, Domain Generalization # add your own keywords or leave empty
+keywords: David Schneider, Computer Vision, Human-Computer Interaction, Robotics, Machine Learning, Deep Learning, Action Recognition, Muscle Activation, Domain Adaptation, Domain Generalization, CV:HCI, H2T, KCIST, KIT, Karlsruhe Institute of Technology # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 💡 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 

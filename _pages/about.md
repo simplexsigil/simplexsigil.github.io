@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://cvhci.iar.kit.edu/'>Research Assistant at CV:HCI</a>. PhD Student. Computer Vision. Machine Learning.
+subtitle: KIT Researcher. <a href='https://cvhci.iar.kit.edu/'>CV:HCI</a> &amp; <a href='https://h2t.iar.kit.edu/'>H2T</a>. Managing Director of <a href='https://www.kcist.kit.edu/'>KCIST</a>. Computer Vision. Human-Computer Interaction. Robotics.
 
 profile:
   align: right
@@ -29,9 +29,10 @@ social: false  # includes social icons at the bottom of the page
 
 ---
 
-My research focuses on developing computer vision systems for accurate human activity recognition and motion analysis across diverse real-world environments like different variations of homes or workplaces. I leverage synthetic data from simulations to overcome limitations in real-world data collection such as sparse datasets or privacy concerns in data collection. A key challenge is bridging the "domain gap" between synthetic and real-world imagery, which I address through special algorithms and training techniques. As part of the <a href='https://www.jubot.kit.edu/index.php'>JuBot project</a> I make use of such systems to recognize human behaviour in order to improve robotic assistance systems for activities of daily living. 
+During my PhD I worked on human activity recognition and motion understanding, with a particular focus on using synthetically generated data to train computer vision models. Simulations can provide training data for settings where real-world collection is sparse or raises privacy concerns, but they introduce a domain gap between synthetic and real imagery. My work addressed how to close this gap, and how well recognition performance carries over across datasets, lighting conditions, background scenery and shifting label semantics rather than within a single benchmark. In the <a href='https://www.jubot.kit.edu/index.php'>JuBot project</a> I applied such systems to recognizing human behaviour for robotic assistance in activities of daily living.
 
-In this field of research I am less interested in the performance within individual datasets, but rather the performance across datasets: How much worse is the recognition accuracy in real-world settings when training on synthetic data, under different lighting conditions, background sceneries or even slightly changing semantics of certain labels.
+Today I work in the field of physical intelligence: teaching robots to perceive, understand and interact with the world around us.
 
-I finished my M.Sc. in Computer Science in 2021 and started my PhD at the <a href='https://cvhci.iar.kit.edu/'>CV:HCI Lab</a> afterwards, both at the <a href='https://www.kit.edu/'>Karlsruhe Institute of Technology (KIT)</a>. 
-As a member of the <a href='https://www.jubot.kit.edu/index.php'>JuBot project</a>, my PhD candidate position is partially funded by the <a href='https://www.carl-zeiss-stiftung.de/en/'>Carl-Zeiss-Stiftung</a>.
+I received my M.Sc. in Computer Science in 2021 and my doctorate (Dr.-Ing.) in January 2026 from the <a href='https://cvhci.iar.kit.edu/'>CV:HCI Lab</a>, both at the <a href='https://www.kit.edu/'>Karlsruhe Institute of Technology (KIT)</a>. During my PhD I was a member of the <a href='https://www.jubot.kit.edu/index.php'>JuBot project</a>, partially funded by the <a href='https://www.carl-zeiss-stiftung.de/en/'>Carl-Zeiss-Stiftung</a>.
+
+I continue at KIT as a researcher at the intersection of computer vision, human-computer interaction and robotics, working with Prof. Rainer Stiefelhagen at the <a href='https://cvhci.iar.kit.edu/'>Computer Vision for Human-Computer Interaction Lab (CV:HCI)</a> and with Prof. Tamim Asfour at the <a href='https://h2t.iar.kit.edu/'>High Performance Humanoid Technologies Lab (H2T)</a>. Since April 2026 I am also Managing Director of the <a href='https://www.kcist.kit.edu/'>KIT Center Information · Systems · Technologies (KCIST)</a>, which bundles KIT's cross-divisional research on digitalization and human-centered AI.
