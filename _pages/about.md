@@ -6,7 +6,7 @@ subtitle: Dr.-Ing. · KIT Researcher. <a href='https://cvhci.iar.kit.edu/'>CV:HC
 topics:
   - Robotic Vision
   - Machine Learning
-  - AI Consulting
+  - Applied AI
 
 profile:
   align: right
