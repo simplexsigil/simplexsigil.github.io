@@ -2,7 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: Dr.-Ing. · KIT Researcher. <a href='https://cvhci.iar.kit.edu/'>CV:HCI</a> &amp; <a href='https://h2t.iar.kit.edu/'>H2T</a>. Managing Director of <a href='https://www.kcist.kit.edu/'>KCIST</a>. Computer Vision. Human-Computer Interaction. Robotics.
+subtitle: Dr.-Ing. · KIT Researcher. <a href='https://cvhci.iar.kit.edu/'>CV:HCI</a> &amp; <a href='https://h2t.iar.kit.edu/'>H2T</a>. Managing Director of <a href='https://www.kcist.kit.edu/'>KCIST</a>.
+topics:
+  - Computer Vision
+  - Human-Computer Interaction
+  - Robotics
 
 profile:
   align: right

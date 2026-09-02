@@ -12,6 +12,13 @@ layout: default
       {% endif %}
     </h1>
     <p class="desc">{{ page.subtitle }}</p>
+    {% if page.topics %}
+      <div class="topic-chips">
+        {% for topic in page.topics -%}
+          <span class="chip">{{ topic }}</span>
+        {%- endfor %}
+      </div>
+    {% endif %}
   </header>
 
   <article>
