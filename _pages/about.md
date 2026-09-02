@@ -33,13 +33,9 @@ social: false  # includes social icons at the bottom of the page
 
 ---
 
-## research
-
 **During my PhD** I worked on human activity recognition and motion understanding, with a particular focus on using synthetically generated data to train computer vision models. Simulations can provide training data for settings where real-world collection is sparse or raises privacy concerns, but they introduce a domain gap between synthetic and real imagery. My work addressed how to close this gap, and how well recognition performance carries over across datasets, lighting conditions, background scenery and shifting label semantics rather than within a single benchmark. In the <a href='https://www.jubot.kit.edu/index.php'>JuBot project</a> I applied such systems to recognizing human behaviour for robotic assistance in activities of daily living.
 
 **Today** I work in the field of physical intelligence: teaching robots to perceive, understand and interact with the world around us.
-
-## background
 
 **Education.** I received my M.Sc. in Computer Science in 2021 and my doctorate (Dr.-Ing.) in January 2026 from the <a href='https://cvhci.iar.kit.edu/'>CV:HCI Lab</a>, both at the <a href='https://www.kit.edu/'>Karlsruhe Institute of Technology (KIT)</a>. During my PhD I was a member of the <a href='https://www.jubot.kit.edu/index.php'>JuBot project</a>, partially funded by the <a href='https://www.carl-zeiss-stiftung.de/en/'>Carl-Zeiss-Stiftung</a>.
 
