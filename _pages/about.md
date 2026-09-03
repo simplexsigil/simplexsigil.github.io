@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Dr.-Ing. · KIT Researcher. <a href='https://cvhci.iar.kit.edu/'>CV:HCI</a> &amp; <a href='https://h2t.iar.kit.edu/'>H2T</a>. Managing Director of <a href='https://www.kcist.kit.edu/'>KCIST</a>.
+subtitle: Dr.-Ing. · Managing Director of <a href='https://www.kcist.kit.edu/'>KCIST</a> · KIT Researcher (<a href='https://cvhci.iar.kit.edu/'>CV:HCI</a> &amp; <a href='https://h2t.iar.kit.edu/'>H2T</a>).
 topics:
   - Robotic Vision
   - Machine Learning
@@ -33,10 +33,10 @@ social: false  # includes social icons at the bottom of the page
 
 ---
 
-**During my PhD** I worked on human activity recognition and motion understanding, with a particular focus on using synthetically generated data to train computer vision models. Simulations can provide training data for settings where real-world collection is sparse or raises privacy concerns, but they introduce a domain gap between synthetic and real imagery. My work addressed how to close this gap, and how well recognition performance carries over across datasets, lighting conditions, background scenery and shifting label semantics rather than within a single benchmark. In the <a href='https://www.jubot.kit.edu/index.php'>JuBot project</a> I applied such systems to recognizing human behaviour for robotic assistance in activities of daily living.
-
 **Today** I work in the field of physical intelligence: teaching robots to perceive, understand and interact with the world around us.
 
-**Education.** I received my M.Sc. in Computer Science in 2021 and my doctorate (Dr.-Ing.) in January 2026 from the <a href='https://cvhci.iar.kit.edu/'>CV:HCI Lab</a>, both at the <a href='https://www.kit.edu/'>Karlsruhe Institute of Technology (KIT)</a>. During my PhD I was a member of the <a href='https://www.jubot.kit.edu/index.php'>JuBot project</a>, partially funded by the <a href='https://www.carl-zeiss-stiftung.de/en/'>Carl-Zeiss-Stiftung</a>.
+**Positions** Since April 2026 I am the managing director of the <a href='https://www.kcist.kit.edu/'>KIT Center Information · Systems · Technologies (KCIST)</a>, which bundles KIT's cross-divisional research on digitalization and human-centered AI. I also continue at KIT as a researcher at the intersection of computer vision, human-computer interaction and robotics, working with Prof. Rainer Stiefelhagen at the <a href='https://cvhci.iar.kit.edu/'>cv:hci Lab</a> and with Prof. Tamim Asfour at the <a href='https://h2t.iar.kit.edu/'>H²T Lab</a>.
 
-**Positions.** I continue at KIT as a researcher at the intersection of computer vision, human-computer interaction and robotics, working with Prof. Rainer Stiefelhagen at the <a href='https://cvhci.iar.kit.edu/'>Computer Vision for Human-Computer Interaction Lab (CV:HCI)</a> and with Prof. Tamim Asfour at the <a href='https://h2t.iar.kit.edu/'>High Performance Humanoid Technologies Lab (H2T)</a>. Since April 2026 I am also Managing Director of the <a href='https://www.kcist.kit.edu/'>KIT Center Information · Systems · Technologies (KCIST)</a>, which bundles KIT's cross-divisional research on digitalization and human-centered AI.
+**During my PhD** I worked on human activity recognition and motion understanding, with a particular focus on using synthetically generated data to train computer vision models. Simulations can provide training data for settings where real-world collection is sparse or raises privacy concerns, but they introduce a domain gap between synthetic and real imagery. My work addressed how to close this gap, and how well recognition performance carries over to real world challenges.
+
+**Education** I received my doctorate (Dr.-Ing.) in January 2026 from the <a href='https://cvhci.iar.kit.edu/'>CV:HCI Lab</a>, at the <a href='https://www.kit.edu/'>Karlsruhe Institute of Technology (KIT)</a>.
