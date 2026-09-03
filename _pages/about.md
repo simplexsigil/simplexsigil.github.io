@@ -39,4 +39,4 @@ social: false  # includes social icons at the bottom of the page
 
 **During my PhD** I worked on human activity recognition and motion understanding, with a particular focus on using synthetically generated data to train computer vision models. Simulations can provide training data for settings where real-world collection is sparse or raises privacy concerns, but they introduce a domain gap between synthetic and real imagery. My work addressed how to close this gap, and how well recognition performance carries over to real world challenges.
 
-**Education** I received my doctorate (Dr.-Ing.) in January 2026 from the <a href='https://cvhci.iar.kit.edu/'>CV:HCI Lab</a>, at the <a href='https://www.kit.edu/'>Karlsruhe Institute of Technology (KIT)</a>.
+**Education** I received my PhD (Dr.-Ing.) in January 2026 from the <a href='https://cvhci.iar.kit.edu/'>CV:HCI Lab</a>, at the <a href='https://www.kit.edu/'>Karlsruhe Institute of Technology (KIT)</a>.
