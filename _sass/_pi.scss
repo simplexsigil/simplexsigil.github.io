@@ -221,7 +221,8 @@ hr {
     color: var(--global-theme-color);
     border: 1px solid var(--global-theme-color);
     border-radius: 3px;
-    background: transparent;
+    background: var(--global-card-bg-color);
+    box-shadow: 2px 2px 0 0 var(--global-theme-color);
   }
 }
 
