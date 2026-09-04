@@ -208,8 +208,11 @@ hr {
 
   .desc {
     font-family: $font-mono;
-    font-size: 0.9rem;
-    color: var(--global-text-color-light);
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.6;
+    color: var(--global-text-color);
+    margin-bottom: 0.75rem;
   }
 }
 
