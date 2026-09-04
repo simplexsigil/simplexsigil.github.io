@@ -23,6 +23,7 @@
   --global-card-bg-color: #{$white-color};
   --global-panel-bg-color: #{$cream-deep-color};
   --global-shadow-color: #{$ink-color};
+  --global-chip-color: #{$chip-blue-color};
   --global-highlight-color: #{$highlight-color};
   --global-back-to-top-bg-color: #{$ink-color};
   --global-back-to-top-text-color: #{$white-color};
@@ -94,6 +95,7 @@ html[data-theme="dark"] {
   --global-card-bg-color: #{$night-surface-color};
   --global-panel-bg-color: #2c2824;
   --global-shadow-color: #{$night-line-color};
+  --global-chip-color: #{$chip-blue-light-color};
   --global-highlight-color: #{$highlight-color};
   --global-back-to-top-bg-color: #{$parchment-color};
   --global-back-to-top-text-color: #{$night-color};
