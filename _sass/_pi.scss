@@ -138,6 +138,10 @@ hr {
     font-weight: 700;
     letter-spacing: -0.01em;
     text-decoration: none;
+
+    .font-weight-bold {
+      color: var(--global-theme-color);
+    }
   }
 
   .navbar-nav .nav-item .nav-link {
@@ -164,12 +168,12 @@ hr {
 
   .navbar-nav .nav-item.active > .nav-link {
     font-weight: 600;
-    color: var(--global-text-color);
+    color: var(--global-theme-color);
     text-decoration-thickness: 2px;
-    text-decoration-color: var(--global-text-color);
+    text-decoration-color: var(--global-theme-color);
 
     &:hover {
-      color: var(--global-text-color);
+      color: var(--global-theme-color);
     }
   }
 }
@@ -193,6 +197,7 @@ hr {
 
     .font-weight-bold {
       font-weight: 700;
+      color: var(--global-theme-color);
     }
   }
 
@@ -207,15 +212,16 @@ hr {
   margin: 0.75rem 0 1.75rem;
 
   .chip {
-    @include hard-card(2px);
     font-family: $font-mono;
     font-size: 0.76rem;
     font-weight: 500;
     line-height: 1.5;
-    padding: 4px 12px;
+    padding: 3px 10px;
     margin: 0 0.6rem 0.6rem 0;
-    color: var(--global-text-color);
-    background: var(--global-panel-bg-color);
+    color: var(--global-theme-color);
+    border: 1px solid var(--global-theme-color);
+    border-radius: 3px;
+    background: transparent;
   }
 }
 
@@ -240,7 +246,7 @@ hr {
     letter-spacing: 0.18em;
     text-transform: uppercase;
     text-align: left;
-    color: var(--global-text-color);
+    color: var(--global-theme-color);
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1.25rem;
     margin-top: 2rem;
@@ -271,8 +277,8 @@ hr {
       border-radius: 4px;
       border-bottom: none;
       text-decoration: none;
-      background: var(--global-text-color);
-      color: var(--global-bg-color) !important;
+      background: var(--global-theme-color);
+      color: #ffffff !important;
     }
 
     .title {
@@ -310,8 +316,8 @@ hr {
         box-shadow 0.15s ease;
 
       &:hover {
-        color: var(--global-text-color);
-        border-color: var(--global-divider-color);
+        color: var(--global-theme-color);
+        border-color: var(--global-theme-color);
         transform: translate(1px, 1px);
         box-shadow: 1px 1px 0 0 var(--global-shadow-color);
       }
@@ -336,6 +342,6 @@ footer.sticky-bottom {
   padding-bottom: 2rem;
 
   a {
-    color: var(--global-text-color);
+    color: var(--global-theme-color);
   }
 }
