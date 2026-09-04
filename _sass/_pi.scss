@@ -103,16 +103,21 @@ strong {
   color: var(--global-text-color);
 }
 
+// Links: ink text with an orange underline; thin orange text is hard to read
 a {
+  color: var(--global-text-color);
   text-decoration: underline;
   text-decoration-thickness: 1px;
+  text-decoration-color: var(--global-theme-color);
   text-underline-offset: 3px;
   transition:
     color 0.2s ease,
     text-decoration-color 0.2s ease;
 
   &:hover {
+    color: var(--global-hover-color);
     text-decoration-thickness: 2px;
+    text-decoration-color: var(--global-hover-color);
   }
 }
 
@@ -343,6 +348,6 @@ footer.sticky-bottom {
   padding-bottom: 2rem;
 
   a {
-    color: var(--global-theme-color);
+    color: var(--global-text-color-light);
   }
 }
