@@ -1,0 +1,363 @@
+/*******************************************************************************
+ * Draupnir-style skin: self-hosted fonts, editorial navigation, hairline
+ * dividers and pill-shaped chips. Colour tokens live in _themes.scss; this
+ * file only covers typography and component shapes.
+ ******************************************************************************/
+
+// Self-hosted fonts (files and licenses in assets/webfonts/)
+
+@font-face {
+  font-family: "Fira Code";
+  src: url("../webfonts/FiraCode/FiraCode-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Fira Code";
+  src: url("../webfonts/FiraCode/FiraCode-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Fira Code";
+  src: url("../webfonts/FiraCode/FiraCode-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Fira Code";
+  src: url("../webfonts/FiraCode/FiraCode-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DejaVu Serif";
+  src: url("../webfonts/DejaVuSerif/DejaVuSerif.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DejaVu Serif";
+  src: url("../webfonts/DejaVuSerif/DejaVuSerif-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DejaVu Serif";
+  src: url("../webfonts/DejaVuSerif/DejaVuSerif-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DejaVu Serif";
+  src: url("../webfonts/DejaVuSerif/DejaVuSerif-BoldItalic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+$font-mono: "Fira Code", "Cascadia Code", "SF Mono", Menlo, Consolas, monospace;
+$font-serif: "DejaVu Serif", Georgia, "Times New Roman", serif;
+
+// Typography
+
+body {
+  font-family: $font-mono;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  // faint warm glow in the corners, on top of the theme background colour
+  background-image: radial-gradient(1100px 700px at 75% -10%, rgba(224, 122, 58, 0.07), transparent 60%),
+    radial-gradient(900px 600px at 10% 110%, rgba(224, 122, 58, 0.045), transparent 60%);
+  background-attachment: fixed;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-serif;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+}
+
+p {
+  color: var(--global-text-color-light);
+}
+
+strong {
+  color: var(--global-text-color);
+}
+
+a {
+  transition: color 0.25s ease;
+
+  &:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+  }
+}
+
+// Background canvas (drawn by assets/js/particles.js)
+
+#particleCanvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  pointer-events: none;
+}
+
+// Navigation
+
+.navbar {
+  opacity: 1;
+  padding-top: 0.85rem;
+  padding-bottom: 0.85rem;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.navbar.navbar-light {
+  .navbar-brand {
+    font-family: $font-serif;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+
+    .font-weight-bold {
+      color: var(--global-theme-color);
+    }
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    position: relative;
+    font-family: $font-mono;
+    font-size: 0.92rem;
+    font-weight: 500;
+    color: var(--global-text-color-light);
+    padding: 0.4rem 0;
+    margin-left: 1.6rem;
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 0;
+      height: 1px;
+      background: var(--global-theme-color);
+      transition: width 0.25s ease;
+    }
+
+    &:hover {
+      color: var(--global-text-color);
+
+      &::after {
+        width: 100%;
+      }
+    }
+  }
+
+  .navbar-nav .nav-item.active > .nav-link {
+    font-weight: 600;
+    color: var(--global-theme-color);
+
+    &::after {
+      width: 100%;
+    }
+
+    &:hover {
+      color: var(--global-theme-color);
+    }
+  }
+}
+
+#light-toggle,
+#search-toggle {
+  color: var(--global-text-color-light);
+  margin-left: 1.6rem;
+
+  &:hover {
+    color: var(--global-text-color);
+  }
+}
+
+// About page header
+
+.post-header {
+  .post-title {
+    font-size: clamp(2.2rem, 5vw, 3.2rem);
+    margin-bottom: 0.5rem;
+
+    .font-weight-bold {
+      background: linear-gradient(100deg, var(--global-hover-color), var(--global-theme-color));
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+
+  .desc {
+    font-family: $font-mono;
+    font-size: 0.92rem;
+    color: var(--global-text-color-light);
+  }
+}
+
+.topic-chips {
+  margin: 0.5rem 0 1.5rem;
+
+  .chip {
+    font-family: $font-mono;
+    font-size: 0.78rem;
+    line-height: 1.5;
+    padding: 6px 14px;
+    margin: 0 0.5rem 0.5rem 0;
+    color: var(--global-text-color-light);
+    border: 1px solid var(--global-divider-color);
+    border-radius: 999px;
+    background: var(--global-card-bg-color);
+    transition:
+      color 0.25s ease,
+      border-color 0.25s ease;
+
+    &:hover {
+      color: var(--global-theme-color);
+      border-color: rgba(224, 122, 58, 0.5);
+    }
+  }
+}
+
+.post article h2 {
+  font-size: 1.6rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.profile img {
+  border-radius: 20px;
+}
+
+// Publications
+
+.publications {
+  h2.bibliography {
+    font-family: $font-mono;
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    text-align: left;
+    color: var(--global-theme-color);
+    border-top: 1px solid var(--global-divider-color);
+    padding-top: 1.25rem;
+    margin-top: 2rem;
+    margin-bottom: 1.25rem;
+  }
+
+  ol.bibliography li {
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid var(--global-divider-color);
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    .preview img {
+      border-radius: 12px;
+      border: 1px solid var(--global-divider-color);
+    }
+
+    .abbr abbr {
+      font-family: $font-mono;
+      font-size: 0.68rem;
+      font-weight: 600;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      padding: 4px 12px;
+      border-radius: 999px;
+      border-bottom: none;
+      text-decoration: none;
+      background: linear-gradient(100deg, var(--global-theme-color), var(--global-hover-color));
+      color: #ffffff !important;
+    }
+
+    .title {
+      font-family: $font-serif;
+      font-size: 1.05rem;
+      line-height: 1.35;
+      letter-spacing: -0.01em;
+    }
+
+    .periodical {
+      color: var(--global-text-color-light);
+      font-size: 0.9rem;
+    }
+
+    .author .self-author {
+      font-weight: 600;
+    }
+
+    .links a.btn {
+      font-family: $font-mono;
+      font-size: 0.75rem;
+      letter-spacing: 0.04em;
+      text-transform: none;
+      color: var(--global-text-color-light);
+      border: 1px solid var(--global-divider-color);
+      border-radius: 999px;
+      padding: 4px 14px;
+      margin: 0 0.4rem 0.4rem 0;
+      box-shadow: none;
+      transition:
+        color 0.25s ease,
+        border-color 0.25s ease,
+        background 0.25s ease;
+
+      &:hover {
+        color: var(--global-theme-color);
+        border-color: rgba(224, 122, 58, 0.5);
+        background: rgba(224, 122, 58, 0.06);
+        box-shadow: none;
+      }
+    }
+  }
+}
+
+// Cards
+
+.card {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 20px;
+  box-shadow: 0 1px 3px rgba(26, 24, 22, 0.06);
+}
+
+// Footer
+
+footer.sticky-bottom {
+  font-family: $font-mono;
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  color: var(--global-text-color-light);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  a {
+    color: var(--global-theme-color);
+  }
+}
