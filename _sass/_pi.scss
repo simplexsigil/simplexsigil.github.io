@@ -81,6 +81,12 @@ body {
   font-size: 0.92rem;
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
+  // Fira Code merges sequences like ".-" or "->" into single glyphs, which
+  // garbles prose such as "Dr.-Ing."; keep plain letterforms everywhere
+  font-variant-ligatures: none;
+  font-feature-settings:
+    "calt" 0,
+    "liga" 0;
 }
 
 h1,
