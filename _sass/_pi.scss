@@ -146,11 +146,13 @@ hr {
   .navbar-brand {
     font-family: $font-mono;
     font-size: 1.25rem;
-    font-weight: 600;
+    // the brand carries bootstrap's .font-weight-lighter utility (!important)
+    font-weight: 600 !important;
     letter-spacing: -0.03em;
     text-decoration: none;
 
     .font-weight-bold {
+      font-weight: 600 !important;
       color: var(--global-theme-color);
     }
   }
@@ -209,8 +211,9 @@ hr {
     letter-spacing: -0.03em;
     margin-bottom: 0.6rem;
 
+    // bootstrap's .font-weight-bold utility is !important, so match it
     .font-weight-bold {
-      font-weight: 600;
+      font-weight: 600 !important;
       color: var(--global-theme-color);
     }
   }
