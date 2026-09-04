@@ -36,21 +36,21 @@ $white-color: #ffffff !default;
 $ghwhite-color: #f6f8fa !default;
 $black-color: #000000 !default;
 
-// pi palette (neutral off-white ground, ink lines, sand panels, KIT green accent)
-$paper-color: #f5f4ef;
-$paper-deep-color: #e9e7df;
-$sand-color: #e6e0cb;
-$ink-color: #111111;
-$ink-line-color: #403e37;
-$ink-muted-color: #5f5d57;
-$night-color: #171614;
-$night-surface-color: #23211d;
-$night-line-color: #6f6b62;
-$paper-dark-text-color: #efede6;
-$paper-dark-muted-color: #b0aca2;
-$accent-color: #009682;
-$accent-deep-color: #00705f;
-$accent-light-color: #2fc4ae;
+// Site palette: draupnir cream and ink with a burned orange accent (light) and
+// the brighter draupnir orange on dark ground; hard-shadow shapes from pi.website
+$cream-color: #faf8f4;
+$cream-deep-color: #f0ede6;
+$ink-color: #1a1816;
+$ink-muted-color: #4a4540;
+$night-color: #1a1816;
+$night-surface-color: #24211e;
+$night-line-color: #6b655c;
+$parchment-color: #f0ede6;
+$parchment-muted-color: #b3aba1;
+$accent-burned-color: #b05218; // 4.9:1 on cream, safe for text
+$accent-burned-deep-color: #9c4612;
+$accent-color: #e07a3a;
+$accent-light-color: #f0a070;
 $highlight-color: #fbd45b;
 
 // Theme colors
