@@ -1,10 +1,10 @@
 /*******************************************************************************
- * Draupnir-style skin: self-hosted fonts, editorial navigation, hairline
- * dividers and pill-shaped chips. Colour tokens live in _themes.scss; this
- * file only covers typography and component shapes.
+ * pi-style skin, loosely after pi.website: neutral off-white ground, ink
+ * hairlines with hard offset shadows, sand panels, mono labels and serif
+ * headings. Colour tokens live in _themes.scss; this file covers typography
+ * and component shapes. Fonts are self-hosted (files and licenses in
+ * assets/webfonts/).
  ******************************************************************************/
-
-// Self-hosted fonts (files and licenses in assets/webfonts/)
 
 @font-face {
   font-family: "Fira Code";
@@ -67,17 +67,20 @@
 $font-mono: "Fira Code", "Cascadia Code", "SF Mono", Menlo, Consolas, monospace;
 $font-serif: "DejaVu Serif", Georgia, "Times New Roman", serif;
 
+// Shared shapes: 1px ink line plus a hard 3px offset shadow, small radius
+@mixin hard-card($offset: 3px) {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 6px;
+  box-shadow: $offset $offset 0 0 var(--global-shadow-color);
+}
+
 // Typography
 
 body {
   font-family: $font-mono;
-  font-size: 0.95rem;
+  font-size: 0.92rem;
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
-  // faint warm glow in the corners, on top of the theme background colour
-  background-image: radial-gradient(1100px 700px at 75% -10%, rgba(224, 122, 58, 0.07), transparent 60%),
-    radial-gradient(900px 600px at 10% 110%, rgba(224, 122, 58, 0.045), transparent 60%);
-  background-attachment: fixed;
 }
 
 h1,
@@ -88,8 +91,8 @@ h5,
 h6 {
   font-family: $font-serif;
   font-weight: 700;
-  letter-spacing: -0.02em;
-  line-height: 1.15;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
 }
 
 p {
@@ -101,86 +104,83 @@ strong {
 }
 
 a {
-  transition: color 0.25s ease;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition:
+    color 0.2s ease,
+    text-decoration-color 0.2s ease;
 
   &:hover {
-    text-decoration: underline;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 3px;
+    text-decoration-thickness: 2px;
   }
 }
 
-// Navigation
+hr {
+  border-top: 1px solid var(--global-divider-color);
+}
+
+// Navigation: serif brand, mono links underlined with a wide offset
 
 .navbar {
   opacity: 1;
-  padding-top: 0.85rem;
-  padding-bottom: 0.85rem;
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+  border-bottom: 1px solid var(--global-divider-color);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
 }
 
 .navbar.navbar-light {
   .navbar-brand {
     font-family: $font-serif;
+    font-size: 1.35rem;
     font-weight: 700;
-    letter-spacing: -0.02em;
-
-    .font-weight-bold {
-      color: var(--global-theme-color);
-    }
+    letter-spacing: -0.01em;
+    text-decoration: none;
   }
 
   .navbar-nav .nav-item .nav-link {
-    position: relative;
     font-family: $font-mono;
-    font-size: 0.92rem;
+    font-size: 0.9rem;
     font-weight: 500;
-    color: var(--global-text-color-light);
+    color: var(--global-text-color);
     padding: 0.4rem 0;
-    margin-left: 1.6rem;
-
-    &::after {
-      content: "";
-      position: absolute;
-      left: 0;
-      bottom: 0;
-      width: 0;
-      height: 1px;
-      background: var(--global-theme-color);
-      transition: width 0.25s ease;
-    }
+    margin-left: 1.5rem;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 8px;
+    text-decoration-color: var(--global-divider-color);
+    transition:
+      color 0.2s ease,
+      text-decoration-color 0.2s ease;
 
     &:hover {
-      color: var(--global-text-color);
-
-      &::after {
-        width: 100%;
-      }
+      color: var(--global-text-color-light);
+      text-decoration-thickness: 2px;
+      text-decoration-color: var(--global-text-color-light);
     }
   }
 
   .navbar-nav .nav-item.active > .nav-link {
     font-weight: 600;
-    color: var(--global-theme-color);
-
-    &::after {
-      width: 100%;
-    }
+    color: var(--global-text-color);
+    text-decoration-thickness: 2px;
+    text-decoration-color: var(--global-text-color);
 
     &:hover {
-      color: var(--global-theme-color);
+      color: var(--global-text-color);
     }
   }
 }
 
 #light-toggle,
 #search-toggle {
-  color: var(--global-text-color-light);
-  margin-left: 1.6rem;
+  color: var(--global-text-color);
+  margin-left: 1.5rem;
 
   &:hover {
-    color: var(--global-text-color);
+    color: var(--global-text-color-light);
   }
 }
 
@@ -188,45 +188,34 @@ a {
 
 .post-header {
   .post-title {
-    font-size: clamp(2.2rem, 5vw, 3.2rem);
-    margin-bottom: 0.5rem;
+    font-size: clamp(2.3rem, 5vw, 3.4rem);
+    margin-bottom: 0.6rem;
 
     .font-weight-bold {
-      background: linear-gradient(100deg, var(--global-hover-color), var(--global-theme-color));
-      -webkit-background-clip: text;
-      background-clip: text;
-      -webkit-text-fill-color: transparent;
+      font-weight: 700;
     }
   }
 
   .desc {
     font-family: $font-mono;
-    font-size: 0.92rem;
+    font-size: 0.9rem;
     color: var(--global-text-color-light);
   }
 }
 
 .topic-chips {
-  margin: 0.5rem 0 1.5rem;
+  margin: 0.75rem 0 1.75rem;
 
   .chip {
+    @include hard-card(2px);
     font-family: $font-mono;
-    font-size: 0.78rem;
+    font-size: 0.76rem;
+    font-weight: 500;
     line-height: 1.5;
-    padding: 6px 14px;
-    margin: 0 0.5rem 0.5rem 0;
-    color: var(--global-text-color-light);
-    border: 1px solid var(--global-divider-color);
-    border-radius: 999px;
-    background: var(--global-card-bg-color);
-    transition:
-      color 0.25s ease,
-      border-color 0.25s ease;
-
-    &:hover {
-      color: var(--global-theme-color);
-      border-color: rgba(224, 122, 58, 0.5);
-    }
+    padding: 4px 12px;
+    margin: 0 0.6rem 0.6rem 0;
+    color: var(--global-text-color);
+    background: var(--global-panel-bg-color);
   }
 }
 
@@ -237,7 +226,8 @@ a {
 }
 
 .profile img {
-  border-radius: 20px;
+  @include hard-card;
+  background: var(--global-card-bg-color);
 }
 
 // Publications
@@ -245,12 +235,12 @@ a {
 .publications {
   h2.bibliography {
     font-family: $font-mono;
-    font-size: 0.8rem;
-    font-weight: 500;
-    letter-spacing: 0.22em;
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.18em;
     text-transform: uppercase;
     text-align: left;
-    color: var(--global-theme-color);
+    color: var(--global-text-color);
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1.25rem;
     margin-top: 2rem;
@@ -260,68 +250,70 @@ a {
   ol.bibliography li {
     padding-bottom: 1.5rem;
     margin-bottom: 1.5rem;
-    border-bottom: 1px solid var(--global-divider-color);
+    border-bottom: 1px dashed var(--global-divider-color);
 
     &:last-child {
       border-bottom: none;
     }
 
     .preview img {
-      border-radius: 12px;
-      border: 1px solid var(--global-divider-color);
+      @include hard-card;
+      background: var(--global-card-bg-color);
     }
 
     .abbr abbr {
       font-family: $font-mono;
       font-size: 0.68rem;
       font-weight: 600;
-      letter-spacing: 0.14em;
+      letter-spacing: 0.12em;
       text-transform: uppercase;
-      padding: 4px 12px;
-      border-radius: 999px;
+      padding: 3px 10px;
+      border-radius: 4px;
       border-bottom: none;
       text-decoration: none;
-      background: linear-gradient(100deg, var(--global-theme-color), var(--global-hover-color));
-      color: #ffffff !important;
+      background: var(--global-text-color);
+      color: var(--global-bg-color) !important;
     }
 
     .title {
       font-family: $font-serif;
       font-size: 1.05rem;
       line-height: 1.35;
-      letter-spacing: -0.01em;
     }
 
     .periodical {
       color: var(--global-text-color-light);
-      font-size: 0.9rem;
+      font-size: 0.88rem;
     }
 
-    .author .self-author {
-      font-weight: 600;
+    .author {
+      font-size: 0.88rem;
+
+      .self-author {
+        font-weight: 600;
+      }
     }
 
     .links a.btn {
+      @include hard-card(2px);
       font-family: $font-mono;
-      font-size: 0.75rem;
+      font-size: 0.74rem;
+      font-weight: 500;
       letter-spacing: 0.04em;
       text-transform: none;
-      color: var(--global-text-color-light);
-      border: 1px solid var(--global-divider-color);
-      border-radius: 999px;
-      padding: 4px 14px;
-      margin: 0 0.4rem 0.4rem 0;
-      box-shadow: none;
+      color: var(--global-text-color);
+      background: var(--global-card-bg-color);
+      padding: 3px 12px;
+      margin: 0 0.5rem 0.5rem 0;
       transition:
-        color 0.25s ease,
-        border-color 0.25s ease,
-        background 0.25s ease;
+        transform 0.15s ease,
+        box-shadow 0.15s ease;
 
       &:hover {
-        color: var(--global-theme-color);
-        border-color: rgba(224, 122, 58, 0.5);
-        background: rgba(224, 122, 58, 0.06);
-        box-shadow: none;
+        color: var(--global-text-color);
+        border-color: var(--global-divider-color);
+        transform: translate(1px, 1px);
+        box-shadow: 1px 1px 0 0 var(--global-shadow-color);
       }
     }
   }
@@ -330,9 +322,7 @@ a {
 // Cards
 
 .card {
-  border: 1px solid var(--global-divider-color);
-  border-radius: 20px;
-  box-shadow: 0 1px 3px rgba(26, 24, 22, 0.06);
+  @include hard-card;
 }
 
 // Footer
@@ -340,12 +330,12 @@ a {
 footer.sticky-bottom {
   font-family: $font-mono;
   font-size: 0.78rem;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.02em;
   color: var(--global-text-color-light);
   padding-top: 2rem;
   padding-bottom: 2rem;
 
   a {
-    color: var(--global-theme-color);
+    color: var(--global-text-color);
   }
 }
