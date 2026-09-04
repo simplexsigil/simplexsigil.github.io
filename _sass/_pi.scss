@@ -144,10 +144,10 @@ hr {
 
 .navbar.navbar-light {
   .navbar-brand {
-    font-family: $font-serif;
-    font-size: 1.35rem;
+    font-family: $font-mono;
+    font-size: 1.25rem;
     font-weight: 700;
-    letter-spacing: -0.01em;
+    letter-spacing: -0.03em;
     text-decoration: none;
 
     .font-weight-bold {
@@ -203,7 +203,9 @@ hr {
 
 .post-header {
   .post-title {
-    font-size: clamp(2.3rem, 5vw, 3.4rem);
+    font-family: $font-mono;
+    font-size: clamp(2.1rem, 4.6vw, 3rem);
+    letter-spacing: -0.03em;
     margin-bottom: 0.6rem;
 
     .font-weight-bold {
