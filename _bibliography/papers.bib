@@ -31,7 +31,8 @@
   arxiv        = {2412.18342},
   altmetric    = {true},
   dimensions   = {true},
-  google_scholar_id = {7PzlFSSx8tAC}
+  google_scholar_id = {7PzlFSSx8tAC},
+  abstract     = {Open-Set Domain Generalization (OSDG) is a challenging task requiring models to accurately predict familiar categories while minimizing confidence for unknown categories to effectively reject them in unseen domains. While the OSDG field has seen considerable advancements, the impact of label noise--a common issue in real-world datasets--has been largely overlooked. Label noise can mislead model optimization, thereby exacerbating the challenges of open-set recognition in novel domains. In this study, we take the first step towards addressing Open-Set Domain Generalization under Noisy Labels (OSDG-NL) by constructing dedicated benchmarks derived from widely used OSDG datasets, including PACS and DigitsDG. We evaluate baseline approaches by integrating techniques from both label denoising and OSDG methodologies, highlighting the limitations of existing strategies in handling label noise effectively. To address these limitations, we propose HyProMeta, a novel framework that integrates hyperbolic category prototypes for label noise-aware meta-learning alongside a learnable new-category agnostic prompt designed to enhance generalization to unseen classes. Our extensive experiments demonstrate the superior performance of HyProMeta compared to state-of-the-art methods across the newly established benchmarks. The source code of this work is released at https://github.com/KPeng9510/HyProMeta.}
 }
 
 @inproceedings{Zhong2026anticipation,
@@ -45,7 +46,8 @@
   doi          = {10.1109/wacv61042.2026.00783},
   altmetric    = {true},
   dimensions   = {true},
-  google_scholar_id = {TFP_iSt0sucC}
+  google_scholar_id = {TFP_iSt0sucC},
+  abstract     = {Recent advances in action anticipation rely heavily on Transformer architectures to learn discriminative representations of the past observation, incurring high computational and memory overhead that limits their applicability to long videos. While temporal processors with linear complexity like RNNs and state-space models offer efficient alternatives, their sequential nature risks overlooking subtle cues in observed frames that could enhance future anticipation. We address this limitation with Cross Linear Attentive Memory (CLAM), a memory module that selectively retrieves complementary context cues from frame features. By reformulating linear attention to replace traditional cross-attention, CLAM achieves linear computation complexity and constant memory usage relative to input length. Finally, by fusing the outputs of the temporal processor and CLAM, a non-autoregressive Transformer decoder generates future actions in one shot with high accuracy. Experiments on egocentric (EpicKitchens100 and Ego4D) and third-person (Thumos14) benchmarks demonstrate our model's superior anticipation accuracy and scalability, processing longer sequences with significantly less latency growth than alternatives. Our approach also achieves promising results in online action detection.}
 }
 
 @inproceedings{Zhong2026flownar,
@@ -59,7 +61,8 @@
   arxiv        = {2606.00620},
   altmetric    = {true},
   dimensions   = {true},
-  google_scholar_id = {M3NEmzRMIkIC}
+  google_scholar_id = {M3NEmzRMIkIC},
+  abstract     = {Recent Large Multimodal Models (LMMs), primarily designed for offline settings, are ill-suited for the dynamic requirements of streaming video. While recent online adaptations improve real-time processing, they still face critical scalability challenges, with resource demands typically growing at least linearly with video duration. To overcome this bottleneck, we propose FlowNar, a novel framework for scalable streaming video narration. The core of FlowNar is a dynamic context management strategy for historical visual context removal, combined with our CLAM (Cross Linear Attentive Memory) module for streaming visual history retention, ensuring bounded visual memory usage and computational complexity, crucial for efficient streaming. We also introduce a realistic self-conditioned evaluation protocol and complementary evaluation metrics to assess streaming narration models under deployment-like conditions. Experiments on the Ego4D, EgoExo4D, and EpicKitchens100 datasets demonstrate that FlowNar substantially improves narration quality over strong baselines while being highly efficient, supporting processing of 10$\times$ longer videos and achieving 3$\times$ higher throughput (FPS). The code is available at https://github.com/zeyun-zhong/FlowNar.}
 }
 
 @inproceedings{Patwari2026privacy,
@@ -101,7 +104,8 @@
   arxiv        = {2604.10409},
   altmetric    = {true},
   dimensions   = {true},
-  google_scholar_id = {JV2RwH3_ST0C}
+  google_scholar_id = {JV2RwH3_ST0C},
+  abstract     = {We introduce IMPACT, a synchronized five-view RGB-D dataset for deployment-oriented industrial procedural understanding, built around real assembly and disassembly of a commercial angle grinder with professional-grade tools. To our knowledge, IMPACT is the first real industrial assembly benchmark that jointly provides synchronized ego-exo RGB-D capture, decoupled bimanual annotation, compliance-aware state tracking, and explicit anomaly--recovery supervision within a single real industrial workflow. It comprises 112 trials from 13 participants totaling 39.5 hours, with multi-route execution governed by a partial-order prerequisite graph, a six-category anomaly taxonomy, and operator cognitive load measured via NASA-TLX. The annotation hierarchy links hand-specific atomic actions to coarse procedural steps, component assembly states, and per-hand compliance phases, with synchronized null spans across views to decouple perceptual limitations from algorithmic failure. Systematic baselines reveal fundamental limitations that remain invisible to single-task benchmarks, particularly under realistic deployment conditions that involve incomplete observations, flexible execution paths, and corrective behavior. The full dataset, annotations, and evaluation code are available at https://github.com/Kratos-Wen/IMPACT.}
 }
 
 @article{Yin2026impactscribe,
@@ -114,7 +118,8 @@
   arxiv        = {2605.01668},
   altmetric    = {true},
   dimensions   = {true},
-  google_scholar_id = {NMxIlDl6LWMC}
+  google_scholar_id = {NMxIlDl6LWMC},
+  abstract     = {Dense temporal annotation of procedural activity videos is vital for action understanding and embodied intelligence but remains labor-intensive due to reactive tools. Each correction is treated as an isolated edit, limiting reuse of information on annotator uncertainty and model reliability. We introduce IMPACT-Scribe, a correction-driven framework for dense labeling that uses each correction to improve future human-machine collaboration. IMPACT-Scribe combines uncertainty-aware boundary scribble supervision, local proposal modeling, cost-aware query planning, structured propagation, and correction-driven adaptation. Experiments and a human study show that this closed-loop design improves labeling quality per effort, enhances boundary accuracy, and fosters better human-machine interaction over time. The code will be made publicly available at https://github.com/BanzQians/IMPACT_AS.}
 }
 
 @article{Zhang2026impacthoi,
@@ -127,7 +132,8 @@
   arxiv        = {2605.01666},
   altmetric    = {true},
   dimensions   = {true},
-  google_scholar_id = {YFjsv_pBGBYC}
+  google_scholar_id = {YFjsv_pBGBYC},
+  abstract     = {We present IMPACT-HOI, a mixed-initiative framework for annotating egocentric procedural video by constructing structured event graphs for Human-Object Interactions (HOI), motivated by the need for high-quality structured supervision for learning robot manipulation from human demonstration. IMPACT-HOI frames this task as the incremental resolution of a partially specified, onset-anchored event state. A trust-calibrated controller selects among direct queries, human-confirmed suggestions, and conservative completions based on empirical annotator behavior and evidence quality. A risk-bounded execution protocol, utilizing atomic rollback, ensures that human-confirmed decisions are preserved against conflicting automated updates. A user study with 9 participants shows a 13.5% reduction in manual annotation actions, a 46.67% event match rate, and zero confirmed-field violations under the studied protocol. The code will be made publicly available at https://github.com/541741106/IMPACT_HOI.}
 }
 
 @article{Kong2026impactcycle,
@@ -213,7 +219,8 @@
   doi          = {10.1515/auto-2024-0008},
   altmetric    = {true},
   dimensions   = {true},
-  google_scholar_id = {qUcmZB5y_30C}
+  google_scholar_id = {qUcmZB5y_30C},
+  abstract     = {Process automation is essential to establish an economically viable circular factory in high-wage locations. This involves using autonomous production technologies, such as robots, to disassemble, reprocess, and reassemble used products with unknown conditions into the original or a new generation of products. This is a complex and highly dynamic issue that involves a high degree of uncertainty. To adapt robots to these conditions, learning from humans is necessary. Humans are the most flexible resource in the circular factory and they can adapt their knowledge and skills to new tasks and changing conditions. This paper presents an interdisciplinary research framework for learning human action knowledge from complex manipulation tasks through human observation and demonstration. The acquired knowledge will be described in a machine-executable form and will be transferred to industrial automation execution by robots in a circular factory. There are two primary research objectives. First, we investigate the multi-modal capture of human behavior and the description of human action knowledge. Second, the reproduction and generalization of learned actions, such as disassembly and assembly actions on robots is studied.}
 }
 
 @inproceedings{Peng2024towards,
