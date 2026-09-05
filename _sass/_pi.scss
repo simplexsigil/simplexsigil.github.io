@@ -254,6 +254,7 @@ hr {
     line-height: 1;
     color: #ffffff;
     background: #0a66c2; // LinkedIn brand blue
+    border: 1px solid var(--global-shadow-color);
     border-radius: 3px;
     box-shadow: 2px 2px 0 0 var(--global-shadow-color);
     text-decoration: none;
