@@ -183,6 +183,17 @@ hr {
   }
 }
 
+// LinkedIn first in the navbar social row, in brand blue; the rest stay ink
+.navbar.navbar-light .navbar-brand.social a.linkedin {
+  i::before {
+    color: #0a66c2;
+  }
+
+  &:hover i::before {
+    color: #004182;
+  }
+}
+
 #light-toggle,
 #search-toggle {
   color: var(--global-text-color);
