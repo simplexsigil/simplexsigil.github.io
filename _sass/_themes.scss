@@ -24,6 +24,7 @@
   --global-panel-bg-color: #{$cream-deep-color};
   --global-shadow-color: #{$ink-color};
   --global-chip-color: #{$chip-blue-color};
+  --global-lab-color: #{$lab-green-color};
   --global-highlight-color: #{$highlight-color};
   --global-back-to-top-bg-color: #{$ink-color};
   --global-back-to-top-text-color: #{$white-color};
@@ -96,6 +97,7 @@ html[data-theme="dark"] {
   --global-panel-bg-color: #2c2824;
   --global-shadow-color: #{$night-line-color};
   --global-chip-color: #{$chip-blue-light-color};
+  --global-lab-color: #{$lab-green-light-color};
   --global-highlight-color: #{$highlight-color};
   --global-back-to-top-bg-color: #{$parchment-color};
   --global-back-to-top-text-color: #{$night-color};

@@ -217,6 +217,20 @@ hr {
     line-height: 1.6;
     color: var(--global-text-color);
     margin-bottom: 0.75rem;
+
+    .accent {
+      color: var(--global-theme-color);
+      font-weight: 600;
+    }
+
+    a.lab {
+      color: var(--global-lab-color);
+      text-decoration-color: var(--global-lab-color);
+
+      &:hover {
+        color: var(--global-lab-color);
+      }
+    }
   }
 }
 
