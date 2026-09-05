@@ -245,6 +245,11 @@ hr {
       font-weight: 600;
     }
 
+    // keep each tagline segment on one line; wrapping happens at the separators
+    .nowrap {
+      white-space: nowrap;
+    }
+
     a.lab {
       color: var(--global-lab-color);
       text-decoration-color: var(--global-lab-color);
