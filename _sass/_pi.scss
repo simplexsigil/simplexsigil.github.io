@@ -235,6 +235,8 @@ hr {
     line-height: 1;
     color: #0a66c2; // LinkedIn brand blue
     text-decoration: none;
+    // same hard offset as the chips, following the glyph outline
+    filter: drop-shadow(2px 2px 0 var(--global-shadow-color));
 
     &:hover {
       color: #004182;
