@@ -227,19 +227,26 @@ hr {
   gap: 0.6rem;
   margin: 0.75rem 0 1.75rem;
 
+  // solid brand-blue tile with the white "in" glyph, so the hard shadow sits
+  // outside the tile only (the full logo glyph has see-through letters)
   .linkedin {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
+    width: 1.8rem;
+    height: 1.8rem;
     margin-right: 0.3rem;
-    font-size: 1.85rem;
+    font-size: 1.05rem;
     line-height: 1;
-    color: #0a66c2; // LinkedIn brand blue
+    color: #ffffff;
+    background: #0a66c2; // LinkedIn brand blue
+    border-radius: 4px;
+    box-shadow: 3px 3px 0 0 var(--global-shadow-color);
     text-decoration: none;
-    // same hard offset as the chips, following the glyph outline
-    filter: drop-shadow(2px 2px 0 var(--global-shadow-color));
 
     &:hover {
-      color: #004182;
+      color: #ffffff;
+      background: #004182;
     }
   }
 
