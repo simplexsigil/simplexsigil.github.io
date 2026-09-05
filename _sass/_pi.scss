@@ -233,15 +233,15 @@ hr {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 1.8rem;
-    height: 1.8rem;
+    width: 1.6rem;
+    height: 1.6rem;
     margin-right: 0.3rem;
-    font-size: 1.05rem;
+    font-size: 0.9rem;
     line-height: 1;
     color: #ffffff;
     background: #0a66c2; // LinkedIn brand blue
-    border-radius: 4px;
-    box-shadow: 3px 3px 0 0 var(--global-shadow-color);
+    border-radius: 3px;
+    box-shadow: 2px 2px 0 0 var(--global-shadow-color);
     text-decoration: none;
 
     &:hover {
