@@ -247,9 +247,9 @@ hr {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    // stretch to the row height, which the chips define; square by ratio
-    align-self: stretch;
-    aspect-ratio: 1;
+    // same box as a chip: line height + vertical padding + borders
+    width: calc(0.76rem * 1.5 + 8px);
+    height: calc(0.76rem * 1.5 + 8px);
     margin-right: 0.3rem;
     font-size: 0.9rem;
     line-height: 1;
