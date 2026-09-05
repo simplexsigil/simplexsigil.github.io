@@ -2,6 +2,7 @@
 layout: about
 title: about
 permalink: /
+description: Dr.-Ing. (PhD) · Managing Director of KCIST · KIT Researcher (CV:HCI & H²T).
 subtitle: <span class='accent'>Dr.-Ing. (PhD)</span> · Managing Director of <a class='lab' href='https://www.kcist.kit.edu/'>KCIST</a> · KIT Researcher (<a class='lab' href='https://cvhci.iar.kit.edu/'>CV:HCI</a> &amp; <a class='lab' href='https://h2t.iar.kit.edu/'>H²T</a>).
 topics:
   - Robotic Vision
