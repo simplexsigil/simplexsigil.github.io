@@ -252,8 +252,12 @@ hr {
   margin-bottom: 1rem;
 }
 
+// the figure include adds MDB's .z-depth-1 (soft shadow) and bootstrap's
+// .rounded (4px radius), both !important, so the hard-card look needs to win
 .profile img {
   @include hard-card;
+  border-radius: 6px !important;
+  box-shadow: 3px 3px 0 0 var(--global-shadow-color) !important;
   background: var(--global-card-bg-color);
 }
 
