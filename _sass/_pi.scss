@@ -194,6 +194,17 @@ hr {
   }
 }
 
+// e-mail icon in the orange accent
+.navbar.navbar-light .navbar-brand.social a[href^="mailto:"] {
+  i::before {
+    color: var(--global-theme-color);
+  }
+
+  &:hover i::before {
+    color: var(--global-hover-color);
+  }
+}
+
 #light-toggle,
 #search-toggle {
   color: var(--global-text-color);

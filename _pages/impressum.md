@@ -8,7 +8,7 @@ nav_order: 3
 
 ## Responsible Contact for this Web Page
 David Schneider  
-david.schneiderαkit.edu
+davidαdsch.ai
 
 ## Address
 Morgenstraße 11  

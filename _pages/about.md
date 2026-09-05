@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <span class='accent'>Dr.-Ing. (PhD)</span> · Managing Director of <a class='lab' href='https://www.kcist.kit.edu/'>KCIST</a> · KIT Researcher (<a class='lab' href='https://cvhci.iar.kit.edu/'>CV:HCI</a> &amp; <a class='lab' href='https://h2t.iar.kit.edu/'>H2T</a>).
+subtitle: <span class='accent'>Dr.-Ing. (PhD)</span> · Managing Director of <a class='lab' href='https://www.kcist.kit.edu/'>KCIST</a> · KIT Researcher (<a class='lab' href='https://cvhci.iar.kit.edu/'>CV:HCI</a> &amp; <a class='lab' href='https://h2t.iar.kit.edu/'>H²T</a>).
 topics:
   - Robotic Vision
   - Machine Learning
