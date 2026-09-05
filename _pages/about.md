@@ -39,4 +39,4 @@ Alongside this role I am a researcher at the intersection of computer vision, hu
 
 My doctoral work addressed human activity recognition and motion understanding, with a focus on training computer vision models on synthetically generated data.
 
-I received my Ph.D. (Dr.-Ing.) from the CV:HCI Lab at KIT in January 2026 and my M.Sc. in Computer Science from KIT in 2021.
+I received my Ph.D. (Dr.-Ing.) in January 2026 and my M.Sc. in Computer Science in 2021, both from Karlsruhe Institute of Technology (KIT).
