@@ -194,8 +194,8 @@ hr {
   }
 }
 
-// e-mail icon in the orange accent
-.navbar.navbar-light .navbar-brand.social a[href^="mailto:"] {
+// e-mail icon in the orange accent (class selector: PurgeCSS drops attribute selectors)
+.navbar.navbar-light .navbar-brand.social a.email {
   i::before {
     color: var(--global-theme-color);
   }
