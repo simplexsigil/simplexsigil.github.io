@@ -193,24 +193,6 @@ ul.task-list input[type="checkbox"] {
   color: var(--global-theme-color);
 }
 
-// Topic chips below the about page tagline
-
-.topic-chips {
-  margin: 0.25rem 0 1.25rem;
-
-  .chip {
-    display: inline-block;
-    padding: 0.1rem 0.65rem;
-    margin: 0 0.35rem 0.35rem 0;
-    border: 1px solid var(--global-theme-color);
-    border-radius: 1rem;
-    color: var(--global-theme-color);
-    font-size: 0.8rem;
-    line-height: 1.5;
-    white-space: nowrap;
-  }
-}
-
 // Profile
 
 .profile {
