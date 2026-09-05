@@ -223,6 +223,20 @@ hr {
 .topic-chips {
   margin: 0.75rem 0 1.75rem;
 
+  .linkedin {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0.75rem 0.6rem 0;
+    font-size: 1.5rem;
+    line-height: 1;
+    color: #0a66c2; // LinkedIn brand blue
+    text-decoration: none;
+
+    &:hover {
+      color: #004182;
+    }
+  }
+
   .chip {
     font-family: $font-mono;
     font-size: 0.76rem;

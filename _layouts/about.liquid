@@ -12,8 +12,18 @@ layout: default
       {% endif %}
     </h1>
     <p class="desc">{{ page.subtitle }}</p>
-    {% if page.topics %}
+    {% if page.topics or site.data.socials.linkedin_username %}
       <div class="topic-chips">
+        {% if site.data.socials.linkedin_username %}
+          <a
+            class="linkedin"
+            href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}"
+            title="LinkedIn"
+            target="_blank"
+            rel="external nofollow noopener"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        {% endif %}
         {% for topic in page.topics -%}
           <span class="chip">{{ topic }}</span>
         {%- endfor %}
