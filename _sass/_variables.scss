@@ -36,6 +36,27 @@ $white-color: #ffffff !default;
 $ghwhite-color: #f6f8fa !default;
 $black-color: #000000 !default;
 
+// Site palette: draupnir cream and ink with a burned orange accent (light) and
+// the brighter draupnir orange on dark ground; hard-shadow shapes from pi.website
+$cream-color: #ffffff;
+$cream-deep-color: #f5f4f0;
+$ink-color: #1a1816;
+$ink-muted-color: #4a4540;
+$night-color: #1a1816;
+$night-surface-color: #24211e;
+$night-line-color: #6b655c;
+$parchment-color: #f0ede6;
+$parchment-muted-color: #b3aba1;
+$accent-burned-color: #c0601f; // 4.0:1 on cream, readable for text
+$accent-burned-deep-color: #a84d16;
+$accent-color: #e07a3a;
+$accent-light-color: #f0a070;
+$highlight-color: #fbd45b;
+$chip-blue-color: #3270d4; // topic chips, 4.8:1 on white
+$chip-blue-light-color: #7fb0f5; // topic chips on dark ground
+$lab-green-color: #00755b; // institution links in the tagline
+$lab-green-light-color: #3fbf9f; // institution links on dark ground
+
 // Theme colors
 
 $code-bg-color-light: rgba($purple-color, 0.05);

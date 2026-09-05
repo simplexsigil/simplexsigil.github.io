@@ -22,7 +22,17 @@
         </a>
       {% elsif site.enable_navbar_social %}
         <!-- Social Icons -->
-        <div class="navbar-brand social">{% include social.liquid %}</div>
+        <div class="navbar-brand social">
+          {% if site.data.socials.linkedin_username %}
+            <a
+              class="linkedin"
+              href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}"
+              title="LinkedIn"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          {% endif %}
+          {% include social.liquid exclude='linkedin_username' %}
+        </div>
       {% endif %}
       <!-- Navbar Toggle -->
       <button

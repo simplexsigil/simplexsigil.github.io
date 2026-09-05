@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Dr.-Ing. · Managing Director of <a href='https://www.kcist.kit.edu/'>KCIST</a> · KIT Researcher (<a href='https://cvhci.iar.kit.edu/'>CV:HCI</a> &amp; <a href='https://h2t.iar.kit.edu/'>H2T</a>).
+subtitle: <span class='accent'>Dr.-Ing. (PhD)</span> · Managing Director of <a class='lab' href='https://www.kcist.kit.edu/'>KCIST</a> · KIT Researcher (<a class='lab' href='https://cvhci.iar.kit.edu/'>CV:HCI</a> &amp; <a class='lab' href='https://h2t.iar.kit.edu/'>H²T</a>).
 topics:
   - Robotic Vision
   - Machine Learning
@@ -11,7 +11,7 @@ topics:
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   # more_info: >
   #  <p>555 your office number</p>
   #  <p>123 your address street</p>
@@ -33,10 +33,10 @@ social: false  # includes social icons at the bottom of the page
 
 ---
 
-**Today** I work in the field of physical intelligence: teaching robots to perceive, understand and interact with the world around us.
+I am Managing Director of the <a href='https://www.kcist.kit.edu/'>KIT Center Information · Systems · Technologies (KCIST)</a> at Karlsruhe Institute of Technology (KIT), where I work to strengthen KIT's cross-divisional research on digitalization and human-centered AI.
 
-**Positions** Since April 2026 I am the managing director of the <a href='https://www.kcist.kit.edu/'>KIT Center Information · Systems · Technologies (KCIST)</a>, which bundles KIT's cross-divisional research on digitalization and human-centered AI. I also continue at KIT as a researcher at the intersection of computer vision, human-computer interaction and robotics, working with Prof. Rainer Stiefelhagen at the <a href='https://cvhci.iar.kit.edu/'>cv:hci Lab</a> and with Prof. Tamim Asfour at the <a href='https://h2t.iar.kit.edu/'>H²T Lab</a>.
+Alongside this role I am a postdoctoral researcher at the intersection of computer vision and robotics, working with Prof. Rainer Stiefelhagen at the <a href='https://cvhci.iar.kit.edu/'>CV:HCI Lab</a> and with Prof. Tamim Asfour at the <a href='https://h2t.iar.kit.edu/'>H²T Lab</a>. My current research is in physical intelligence: teaching robots to perceive, understand and interact with the world around us.
 
-**During my PhD** I worked on human activity recognition and motion understanding, with a particular focus on using synthetically generated data to train computer vision models. Simulations can provide training data for settings where real-world collection is sparse or raises privacy concerns, but they introduce a domain gap between synthetic and real imagery. My work addressed how to close this gap, and how well recognition performance carries over to real world challenges.
+My doctoral work addressed human activity recognition and motion understanding, with a focus on training computer vision models on synthetically generated data.
 
-**Education** I received my PhD (Dr.-Ing.) in January 2026 from the <a href='https://cvhci.iar.kit.edu/'>CV:HCI Lab</a>, at the <a href='https://www.kit.edu/'>Karlsruhe Institute of Technology (KIT)</a>.
+I received my Ph.D. (Dr.-Ing.) in January 2026 and my M.Sc. in Computer Science in 2021, both from Karlsruhe Institute of Technology (KIT).

@@ -1,0 +1,437 @@
+/*******************************************************************************
+ * pi-style skin, loosely after pi.website: neutral off-white ground, ink
+ * hairlines with hard offset shadows, sand panels, mono labels and serif
+ * headings. Colour tokens live in _themes.scss; this file covers typography
+ * and component shapes. Fonts are self-hosted (files and licenses in
+ * assets/webfonts/).
+ ******************************************************************************/
+
+@font-face {
+  font-family: "Fira Code";
+  src: url("../webfonts/FiraCode/FiraCode-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Fira Code";
+  src: url("../webfonts/FiraCode/FiraCode-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Fira Code";
+  src: url("../webfonts/FiraCode/FiraCode-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Fira Code";
+  src: url("../webfonts/FiraCode/FiraCode-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DejaVu Serif";
+  src: url("../webfonts/DejaVuSerif/DejaVuSerif.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DejaVu Serif";
+  src: url("../webfonts/DejaVuSerif/DejaVuSerif-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DejaVu Serif";
+  src: url("../webfonts/DejaVuSerif/DejaVuSerif-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DejaVu Serif";
+  src: url("../webfonts/DejaVuSerif/DejaVuSerif-BoldItalic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+$font-mono: "Fira Code", "Cascadia Code", "SF Mono", Menlo, Consolas, monospace;
+$font-serif: "DejaVu Serif", Georgia, "Times New Roman", serif;
+
+// Shared shapes: 1px ink line plus a hard 3px offset shadow, small radius
+@mixin hard-card($offset: 3px) {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 6px;
+  box-shadow: $offset $offset 0 0 var(--global-shadow-color);
+}
+
+// Typography
+
+body {
+  font-family: $font-mono;
+  font-size: 0.92rem;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  // Fira Code merges sequences like ".-" or "->" into single glyphs, which
+  // garbles prose such as "Dr.-Ing."; keep plain letterforms everywhere
+  font-variant-ligatures: none;
+  font-feature-settings:
+    "calt" 0,
+    "liga" 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-serif;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+}
+
+// Links: ink text with an orange underline; thin orange text is hard to read
+a {
+  color: var(--global-text-color);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-decoration-color: var(--global-theme-color);
+  text-underline-offset: 3px;
+  transition:
+    color 0.2s ease,
+    text-decoration-color 0.2s ease;
+
+  &:hover {
+    color: var(--global-hover-color);
+    text-decoration-thickness: 2px;
+    text-decoration-color: var(--global-hover-color);
+  }
+}
+
+hr {
+  border-top: 1px solid var(--global-divider-color);
+}
+
+// Navigation: serif brand, mono links underlined with a wide offset
+
+.navbar {
+  opacity: 1;
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+  border-bottom: 1px solid var(--global-divider-color);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.navbar.navbar-light {
+  .navbar-brand {
+    font-family: $font-mono;
+    font-size: 1.25rem;
+    // the brand carries bootstrap's .font-weight-lighter utility (!important)
+    font-weight: 600 !important;
+    letter-spacing: -0.03em;
+    text-decoration: none;
+
+    .font-weight-bold {
+      font-weight: 600 !important;
+      color: var(--global-theme-color);
+    }
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    font-family: $font-mono;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--global-text-color);
+    padding: 0.4rem 0;
+    margin-left: 1.5rem;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 8px;
+    text-decoration-color: var(--global-divider-color);
+    transition:
+      color 0.2s ease,
+      text-decoration-color 0.2s ease;
+
+    &:hover {
+      color: var(--global-text-color-light);
+      text-decoration-thickness: 2px;
+      text-decoration-color: var(--global-text-color-light);
+    }
+  }
+
+  .navbar-nav .nav-item.active > .nav-link {
+    font-weight: 600;
+    color: var(--global-theme-color);
+    text-decoration-thickness: 2px;
+    text-decoration-color: var(--global-theme-color);
+
+    &:hover {
+      color: var(--global-theme-color);
+    }
+  }
+}
+
+// LinkedIn first in the navbar social row, in brand blue; the rest stay ink
+.navbar.navbar-light .navbar-brand.social a.linkedin {
+  i::before {
+    color: #0a66c2;
+  }
+
+  &:hover i::before {
+    color: #004182;
+  }
+}
+
+// e-mail icon in the orange accent
+.navbar.navbar-light .navbar-brand.social a[href^="mailto:"] {
+  i::before {
+    color: var(--global-theme-color);
+  }
+
+  &:hover i::before {
+    color: var(--global-hover-color);
+  }
+}
+
+#light-toggle,
+#search-toggle {
+  color: var(--global-text-color);
+  margin-left: 1.5rem;
+
+  &:hover {
+    color: var(--global-text-color-light);
+  }
+}
+
+// About page header
+
+.post-header {
+  .post-title {
+    font-family: $font-mono;
+    font-size: clamp(2.1rem, 4.6vw, 3rem);
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    margin-bottom: 0.6rem;
+
+    // bootstrap's .font-weight-bold utility is !important, so match it
+    .font-weight-bold {
+      font-weight: 600 !important;
+      color: var(--global-theme-color);
+    }
+  }
+
+  .desc {
+    font-family: $font-mono;
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.6;
+    color: var(--global-text-color);
+    margin-bottom: 0.75rem;
+
+    .accent {
+      color: var(--global-theme-color);
+      font-weight: 600;
+    }
+
+    a.lab {
+      color: var(--global-lab-color);
+      text-decoration-color: var(--global-lab-color);
+
+      &:hover {
+        color: var(--global-lab-color);
+      }
+    }
+  }
+}
+
+.topic-chips {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 0.75rem 0 1.75rem;
+
+  // small chevron pointing at the LinkedIn tile
+  .chip-lead {
+    font-size: 1.4rem;
+    line-height: 1;
+    color: #0a66c2; // LinkedIn brand blue
+    margin-right: -0.25rem;
+  }
+
+  // solid brand-blue tile with the white "in" glyph, so the hard shadow sits
+  // outside the tile only (the full logo glyph has see-through letters)
+  .linkedin {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    // same box as a chip: line height + vertical padding + borders
+    width: calc(0.76rem * 1.5 + 8px);
+    height: calc(0.76rem * 1.5 + 8px);
+    margin-right: 0.3rem;
+    font-size: 0.9rem;
+    line-height: 1;
+    color: #ffffff;
+    background: #0a66c2; // LinkedIn brand blue
+    border: 1px solid var(--global-shadow-color);
+    border-radius: 3px;
+    box-shadow: 2px 2px 0 0 var(--global-shadow-color);
+    text-decoration: none;
+
+    &:hover {
+      color: #ffffff;
+      background: #004182;
+    }
+  }
+
+  .chip {
+    font-family: $font-mono;
+    font-size: 0.76rem;
+    font-weight: 500;
+    line-height: 1.5;
+    padding: 3px 10px;
+    margin: 0;
+    color: var(--global-chip-color);
+    border: 1px solid var(--global-chip-color);
+    border-radius: 3px;
+    background: var(--global-card-bg-color);
+    box-shadow: 2px 2px 0 0 var(--global-chip-color);
+  }
+}
+
+.post article h2 {
+  font-size: 1.6rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+// the figure include adds MDB's .z-depth-1 (soft shadow) and bootstrap's
+// .rounded (4px radius), both !important, so the hard-card look needs to win
+.profile img {
+  @include hard-card;
+  border-radius: 16px !important;
+  box-shadow: 3px 3px 0 0 var(--global-shadow-color) !important;
+  background: var(--global-card-bg-color);
+}
+
+// Publications
+
+.publications {
+  h2.bibliography {
+    font-family: $font-mono;
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    text-align: left;
+    color: var(--global-theme-color);
+    border-top: 1px solid var(--global-divider-color);
+    padding-top: 1.25rem;
+    margin-top: 2rem;
+    margin-bottom: 1.25rem;
+  }
+
+  ol.bibliography li {
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px dashed var(--global-divider-color);
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    .preview img {
+      @include hard-card;
+      background: var(--global-card-bg-color);
+    }
+
+    .abbr abbr {
+      font-family: $font-mono;
+      font-size: 0.68rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 3px 10px;
+      border-radius: 4px;
+      border-bottom: none;
+      text-decoration: none;
+      background: var(--global-theme-color);
+      color: #ffffff !important;
+    }
+
+    .title {
+      font-family: $font-serif;
+      font-size: 1.05rem;
+      line-height: 1.35;
+    }
+
+    .periodical {
+      color: var(--global-text-color-light);
+      font-size: 0.88rem;
+    }
+
+    .author {
+      font-size: 0.88rem;
+
+      .self-author {
+        font-weight: 600;
+      }
+    }
+
+    .links a.btn {
+      @include hard-card(2px);
+      font-family: $font-mono;
+      font-size: 0.74rem;
+      font-weight: 500;
+      letter-spacing: 0.04em;
+      text-transform: none;
+      color: var(--global-text-color);
+      background: var(--global-card-bg-color);
+      padding: 3px 12px;
+      margin: 0 0.5rem 0.5rem 0;
+      transition:
+        transform 0.15s ease,
+        box-shadow 0.15s ease;
+
+      &:hover {
+        color: var(--global-theme-color);
+        border-color: var(--global-theme-color);
+        transform: translate(1px, 1px);
+        box-shadow: 1px 1px 0 0 var(--global-shadow-color);
+      }
+    }
+  }
+}
+
+// Cards
+
+.card {
+  @include hard-card;
+}
+
+// Footer
+
+footer.sticky-bottom {
+  font-family: $font-mono;
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
+  color: var(--global-text-color-light);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  a {
+    color: var(--global-text-color-light);
+  }
+}
