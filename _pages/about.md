@@ -6,8 +6,7 @@ description: Dr.-Ing. (PhD) · Managing Director of KCIST · KIT Researcher (CV:
 subtitle: <span class='nowrap accent'>Dr.-Ing. (PhD)</span> · <span class='nowrap'>Managing Director of <a class='lab' href='https://www.kcist.kit.edu/'>KCIST</a></span> · <span class='nowrap'>KIT Researcher (<a class='lab' href='https://cvhci.iar.kit.edu/'>CV:HCI</a> &amp; <a class='lab' href='https://h2t.iar.kit.edu/'>H²T</a>).</span>
 topics:
   - Robotic Vision
-  - Machine Learning
-  - Applied AI
+  - AI Research
 
 profile:
   align: right
