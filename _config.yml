@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: David
 # middle_name: 
 last_name: Schneider
-email: davidαdsch.ai
+email: david@dsch.ai
 # contact_note: >
 #  You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -114,7 +114,7 @@ youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
 contact_note: >
-  My preferred (and most frequently checked) channel of communication is E-Mail. Not that you have to replace the α in the address with @.
+  My preferred (and most frequently checked) channel of communication is E-Mail.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification

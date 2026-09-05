@@ -1,11 +1,10 @@
 # Social links shown in the navbar on the about page (LinkedIn is rendered
 # separately as the first icon, see _includes/header.liquid). Order here is
-# the display order. The e-mail uses α for @ on purpose, to defeat scrapers;
-# readers replace it by hand (see contact_note in _config.yml).
+# the display order. encode_email percent-encodes the address in the mailto link.
 linkedin_username: david-schneider-60a4941b4 # your LinkedIn user name
 scholar_userid: T0t-GW4AAAAJ # your Google Scholar ID
 orcid_id: 0000-0002-3272-2337 # your ORCID ID
 ieee_id: 37089194574 # your ieeexplore.ieee.org/author/id
 dblp_url: https://dblp.org/pid/16/49-6.html # your DBLP profile url
 acm_id: 99660285820 # your dl.acm.org/profile/id
-email: davidαdsch.ai # your email address
+email: david@dsch.ai # your email address

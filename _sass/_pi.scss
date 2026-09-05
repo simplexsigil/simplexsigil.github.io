@@ -420,6 +420,11 @@ hr {
   }
 }
 
+// Obfuscated e-mail display (KIT pattern): a decoy span hidden from view
+.where_is_it {
+  display: none;
+}
+
 // Cards
 
 .card {

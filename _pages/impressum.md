@@ -8,7 +8,7 @@ nav_order: 3
 
 ## Responsible Contact for this Web Page
 David Schneider  
-davidαdsch.ai
+<a href="mailto:david@dsch.ai">david<span class="caption where_is_it">Kjn1</span>∂dsch ai</a>
 
 ## Address
 Morgenstraße 11  
