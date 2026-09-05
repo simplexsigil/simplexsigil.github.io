@@ -243,10 +243,10 @@ hr {
 
   // small chevron pointing at the LinkedIn tile
   .chip-lead {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     line-height: 1;
-    color: var(--global-text-color-light);
-    margin-right: -0.2rem;
+    color: #0a66c2; // LinkedIn brand blue
+    margin-right: -0.25rem;
   }
 
   // solid brand-blue tile with the white "in" glyph, so the hard shadow sits
