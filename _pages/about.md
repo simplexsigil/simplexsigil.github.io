@@ -35,7 +35,7 @@ social: false  # includes social icons at the bottom of the page
 
 I want machines to understand the physical world the way people do, and to act in it. My current research is in computer vision and physical intelligence: teaching robots to perceive, understand and interact with their surroundings.
 
-Much of my work so far has been about learning from data that does not yet exist. I built simulation pipelines that turn ordinary video into synthetic training data, released Muscles in Time, a large-scale dataset linking human motion to simulated muscle activation, and created OmniFall, a benchmark for fall detection outside the lab.
+Much of my previous work has focused on learning from data that does not yet exist. I built simulation pipelines that turn ordinary video into synthetic training data, released Muscles in Time, a large-scale dataset linking human motion to simulated muscle activation, and created OmniFall, a benchmark for fall detection outside the lab.
 
 I am a postdoctoral researcher at Karlsruhe Institute of Technology (KIT), working with Prof. Rainer Stiefelhagen at the <a href='https://cvhci.iar.kit.edu/'>CV:HCI Lab</a> and Prof. Tamim Asfour at the <a href='https://h2t.iar.kit.edu/'>H²T Lab</a>, and Managing Director of the <a href='https://www.kcist.kit.edu/'>KIT Center Information · Systems · Technologies (KCIST)</a>, which brings together KIT's research on digitalization and human-centered AI.
 
