@@ -50,8 +50,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-i-received-my-doctorate-from-karlsruhe-institute-of-technology-for-my-thesis-on-synthetic-data-for-video-based-human-activity-recognition",
-          title: 'I received my doctorate from Karlsruhe Institute of Technology for my thesis on...',
+            },},{id: "news-i-received-my-phd-from-karlsruhe-institute-of-technology-for-my-thesis-on-synthetic-data-for-video-based-human-activity-recognition",
+          title: 'I received my PhD from Karlsruhe Institute of Technology for my thesis on...',
           description: "",
           section: "News",},{id: "news-i-started-as-managing-director-of-the-kit-center-information-systems-technologies",
           title: 'I started as Managing Director of the KIT Center Information · Systems ·...',
