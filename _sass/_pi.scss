@@ -405,10 +405,12 @@ details.read-more {
   &::before {
     content: "";
     position: absolute;
-    left: calc(-1.25rem - 4px);
+    // no calc() here: the deploy minifier breaks leading negatives inside calc()
+    left: -1.25rem;
     top: 0.95rem;
     width: 7px;
     height: 7px;
+    transform: translateX(-50%);
     border-radius: 2px;
     background: var(--global-text-color);
     outline: 3px solid var(--global-bg-color);
