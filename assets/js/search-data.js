@@ -50,7 +50,22 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{
+            },},{id: "news-i-received-my-doctorate-from-karlsruhe-institute-of-technology-for-my-thesis-on-synthetic-data-for-video-based-human-activity-recognition",
+          title: 'I received my doctorate from Karlsruhe Institute of Technology for my thesis on...',
+          description: "",
+          section: "News",},{id: "news-i-started-as-managing-director-of-the-kit-center-information-systems-technologies",
+          title: 'I started as Managing Director of the KIT Center Information · Systems ·...',
+          description: "",
+          section: "News",},{id: "news-repeated-reviewer-cvpr-outstanding-iccv-eccv-wacv-neurips-aaai-iros-icra",
+          title: 'Repeated reviewer: CVPR (Outstanding), ICCV, ECCV, WACV, NeurIPS, AAAI, IROS, ICRA.',
+          description: "",
+          section: "News",},{id: "news-already-nine-papers-published-or-accepted-in-2026-at-eccv-icml-ijcv-wacv-fg-acm-mm-and-smc-more-in-submission",
+          title: 'Already nine papers published or accepted in 2026, at ECCV, ICML, IJCV, WACV,...',
+          description: "",
+          section: "News",},{id: "news-omnifall-our-unified-staged-to-wild-benchmark-for-fall-detection-is-being-presented-at-eccv-2026-in-malmö-friday-11-september-2026-10-30-to-12-30-cest-poster-board-445-in-the-exhibition-hall-eccv-virtual-site",
+          title: 'OmniFall, our unified staged-to-wild benchmark for fall detection, is being presented at ECCV...',
+          description: "",
+          section: "News",},{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
