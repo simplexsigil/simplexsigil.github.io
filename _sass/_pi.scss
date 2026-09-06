@@ -331,6 +331,72 @@ hr {
   background: var(--global-card-bg-color);
 }
 
+// News timeline: left rail with square markers, mono date, bold lead, muted text
+
+.news-timeline {
+  list-style: none;
+  margin: 0 0 0 0.25rem;
+  padding: 0.25rem 0 0.25rem 1.25rem;
+  border-left: 1px solid var(--global-divider-color);
+}
+
+.news-item {
+  position: relative;
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  padding: 0.4rem 0.75rem;
+  border-radius: 4px;
+  transition: background 0.2s ease;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: calc(-1.25rem - 4px);
+    top: 0.95rem;
+    width: 7px;
+    height: 7px;
+    border-radius: 2px;
+    background: var(--global-text-color);
+    outline: 3px solid var(--global-bg-color);
+  }
+
+  &:hover {
+    background: var(--global-panel-bg-color);
+  }
+
+  .news-date {
+    flex: none;
+    min-width: 5rem;
+    font-family: $font-mono;
+    font-size: 0.78rem;
+    color: var(--global-text-color-light);
+    white-space: nowrap;
+  }
+
+  .news-body {
+    font-size: 0.9rem;
+    line-height: 1.55;
+  }
+
+  .news-title {
+    display: block;
+    font-weight: 600;
+    color: var(--global-text-color);
+  }
+
+  .news-text {
+    color: var(--global-text-color-light);
+  }
+}
+
+@media (max-width: 576px) {
+  .news-item {
+    flex-direction: column;
+    gap: 0.1rem;
+  }
+}
+
 // Publications
 
 .publications {
