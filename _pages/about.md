@@ -35,7 +35,7 @@ announcements:
 
 I want machines to understand the physical world the way people do, and to act in it. My current research is in computer vision and physical intelligence: teaching robots to perceive, understand and interact with their surroundings.
 
-I am a postdoctoral researcher at Karlsruhe Institute of Technology (KIT), working with Prof. Rainer Stiefelhagen at the <a href='https://cvhci.iar.kit.edu/'>CV:HCI Lab</a> and Prof. Tamim Asfour at the <a href='https://h2t.iar.kit.edu/'>H²T Lab</a>, and Managing Director of the <a href='https://www.kcist.kit.edu/'>KIT Center Information · Systems · Technologies (KCIST)</a>, which brings together KIT's research on digitalization and human-centered AI.
+I am Managing Director of the <a href='https://www.kcist.kit.edu/'>KIT Center Information · Systems · Technologies (KCIST)</a>, which brings together KIT's research on digitalization and human-centered AI, and a postdoctoral researcher at Karlsruhe Institute of Technology (KIT), working with Prof. Rainer Stiefelhagen at the <a href='https://cvhci.iar.kit.edu/'>CV:HCI Lab</a> and Prof. Tamim Asfour at the <a href='https://h2t.iar.kit.edu/'>H²T Lab</a>.
 
 <details class="read-more" markdown="1">
 <summary></summary>
