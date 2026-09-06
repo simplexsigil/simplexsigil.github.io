@@ -334,9 +334,14 @@ hr {
 // "Read more" collapse on the about page (native details element)
 
 details.read-more {
+  // column flexbox so the button can be moved below the revealed text
+  display: flex;
+  flex-direction: column;
   margin: 0.25rem 0 1rem;
 
   summary {
+    order: 1;
+    align-self: flex-start;
     display: inline-block;
     list-style: none;
     cursor: pointer;
@@ -371,7 +376,7 @@ details.read-more {
   }
 
   &[open] summary {
-    margin-bottom: 1rem;
+    margin-top: 0.25rem;
 
     &::before {
       content: "Show less";
