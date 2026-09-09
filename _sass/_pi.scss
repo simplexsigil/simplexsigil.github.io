@@ -127,8 +127,11 @@ hr {
 
 .navbar {
   opacity: 1;
-  padding-top: 0.9rem;
-  padding-bottom: 0.9rem;
+  // fixed height (see $navbar-height); content is centred vertically by the
+  // navbar's flex alignment, the collapsed mobile menu still expands below
+  min-height: $navbar-height;
+  padding-top: 0;
+  padding-bottom: 0;
   border-bottom: 1px solid var(--global-divider-color);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);

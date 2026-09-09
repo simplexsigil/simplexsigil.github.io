@@ -71,6 +71,11 @@ $fa-font-path: "../webfonts";
 $ti-font-path: "../fonts";
 $ti-font-display: block;
 
+// Fixed navbar height. The stylesheet, the body offset and the progress bar
+// all use this value, so progress-bar.js (which re-measures the navbar and
+// rewrites the body padding after load) finds nothing to change: no jump.
+$navbar-height: 76px;
+
 // Back To Top button config
 $back-to-top-z-index: 10;
 $back-to-top-bottom: 30px;

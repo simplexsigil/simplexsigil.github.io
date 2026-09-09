@@ -13,13 +13,13 @@ body {
   h4,
   h5,
   h6 {
-    scroll-margin-top: 66px;
+    scroll-margin-top: $navbar-height + 10px;
   }
 }
 
 body.fixed-top-nav {
   // Add some padding for the nav-bar.
-  padding-top: 56px;
+  padding-top: $navbar-height;
 }
 
 body.sticky-bottom-footer {
