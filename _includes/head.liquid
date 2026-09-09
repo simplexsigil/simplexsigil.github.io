@@ -3,12 +3,8 @@
 
 <!-- Bootstrap & MDB -->
 <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css' | relative_url | bust_file_cache }}">
-<link
-  rel="stylesheet"
-  href="{{ site.third_party_libraries.mdb.url.css }}"
-  integrity="{{ site.third_party_libraries.mdb.integrity.css }}"
-  crossorigin="anonymous"
->
+<!-- MDB served locally so the deploy step can purge unused rules -->
+<link rel="stylesheet" href="{{ '/assets/css/mdb.min.css' | relative_url | bust_file_cache }}">
 
 {% if page.pretty_table %}
   <!-- Bootstrap Table -->
@@ -25,7 +21,7 @@
 <link defer rel="stylesheet" href="{{ '/assets/css/academicons.min.css' | relative_url | bust_file_cache }}">
 <link defer rel="stylesheet" href="{{ '/assets/css/scholar-icons.css' | relative_url | bust_file_cache }}">
 <link rel="preload" href="{{ '/assets/webfonts/FiraCode/FiraCode-Regular.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="{{ '/assets/webfonts/DejaVuSerif/DejaVuSerif-Bold.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{ '/assets/webfonts/FiraCode/FiraCode-Medium.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
 
 <!-- Code Syntax Highlighting -->
 <link

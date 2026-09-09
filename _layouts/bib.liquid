@@ -32,7 +32,7 @@
           {% assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' %}
           {%
             include figure.liquid
-            loading="eager"
+            loading="lazy"
             path=entry_path
             sizes = "200px"
             class="preview z-depth-1 rounded"
@@ -335,9 +335,8 @@
                 {% endfor %}
               {% endif %}
 
-              <img
-                src="https://img.shields.io/badge/scholar-{{ citation_count }}-4285F4?logo=googlescholar&labelColor=beige"
-                alt="{{ citation_count }} Google Scholar citations"
+              <span class="scholar-badge" title="{{ citation_count }} Google Scholar citations"
+                ><span class="scholar-badge-label">scholar</span><span class="scholar-badge-count">{{ citation_count }}</span></span
               >
             </a>
           {% endif %}

@@ -5,13 +5,8 @@
   crossorigin="anonymous"
 ></script>
 
-<!-- Bootsrap & MDB scripts -->
+<!-- Bootstrap (MDB's script is not needed: no waves, tooltips or MDB widgets are used) -->
 <script src="{{ '/assets/js/bootstrap.bundle.min.js' | relative_url }}"></script>
-<script
-  src="{{ site.third_party_libraries.mdb.url.js }}"
-  integrity="{{ site.third_party_libraries.mdb.integrity.js }}"
-  crossorigin="anonymous"
-></script>
 
 {% if site.enable_masonry %}
   <!-- Masonry & imagesLoaded -->
