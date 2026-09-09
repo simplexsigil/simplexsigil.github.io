@@ -65,8 +65,11 @@ $code-bg-color-dark: #2c3237 !default;
 // Font awesome location
 $fa-font-path: "../webfonts";
 
-// Tabler icons location
+// Tabler icons location. Only the combined font is imported (it holds outline
+// and filled glyphs); the font files are subset to the glyphs the site uses,
+// see the commit that introduced this. Adding a new icon requires re-subsetting.
 $ti-font-path: "../fonts";
+$ti-font-display: block;
 
 // Back To Top button config
 $back-to-top-z-index: 10;
