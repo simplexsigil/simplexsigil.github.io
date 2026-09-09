@@ -329,6 +329,10 @@ hr {
   border-radius: 16px !important;
   box-shadow: 3px 3px 0 0 var(--global-shadow-color) !important;
   background: var(--global-card-bg-color);
+  // the portrait is square; reserving its box up front stops the text from
+  // reflowing around the float once the image arrives (layout shift)
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
 }
 
 // "Read more" collapse on the about page (native details element)
@@ -481,6 +485,10 @@ details.read-more {
     .preview img {
       @include hard-card;
       background: var(--global-card-bg-color);
+      // uniform 3:2 thumbnails: space is reserved before the lazy image loads
+      aspect-ratio: 3 / 2;
+      object-fit: cover;
+      width: 100%;
     }
 
     .abbr abbr {
