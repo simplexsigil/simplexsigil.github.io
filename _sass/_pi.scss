@@ -452,6 +452,17 @@ details.read-more {
   }
 }
 
+// the newest entry (first in the list) is highlighted in the accent colour
+.news-item:first-child {
+  &::before {
+    background: var(--global-theme-color);
+  }
+
+  .news-title {
+    color: var(--global-theme-color);
+  }
+}
+
 @media (max-width: 576px) {
   .news-item {
     flex-direction: column;
